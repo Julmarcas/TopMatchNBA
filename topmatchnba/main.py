@@ -1,5 +1,7 @@
-from datetime import datetime, timedelta
 from dataclasses import dataclass
+from datetime import datetime
+from datetime import timedelta
+
 from nba_api.stats.endpoints import scoreboardv2
 
 
@@ -99,7 +101,7 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     except Exception as e:
         raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
 
-    games: dict[Game] = {}
+    games: dict[str, Game] = {}
     game_headers = scoreboard.game_header.get_dict().get("data", [])
     line_scores = scoreboard.line_score.get_dict().get("data", [])
     east_conf_standings = scoreboard.east_conf_standings_by_day.get_dict().get(
@@ -129,7 +131,7 @@ def calculate_game_points(game: Game) -> int:
     game_points = 0
 
     # score diff
-    score_diff = abs((game.home_team_points - game.visitor_team_points))
+    score_diff = abs(game.home_team_points - game.visitor_team_points)
     if score_diff < 5:
         game_points += 8
     elif score_diff < 10:
