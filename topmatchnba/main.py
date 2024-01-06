@@ -25,25 +25,10 @@ class Game:
     maximum_points_player: int = 0
 
 
-def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
-    try:
-        scoreboard = scoreboardv2.ScoreboardV2(day_offset=0, game_date=game_date)
-    except Exception as e:
-        raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
-
-    games: dict[Game] = {}
-    game_headers = scoreboard.game_header.get_dict().get("data", [])
-    line_scores = scoreboard.line_score.get_dict().get("data", [])
-    east_conf_standings = scoreboard.east_conf_standings_by_day.get_dict().get(
-        "data", []
-    )
-    west_conf_standings = scoreboard.west_conf_standings_by_day.get_dict().get(
-        "data", []
-    )
-    team_leaders = scoreboard.team_leaders.get_dict().get("data", [])
-
-    # print(scoreboard.get_json())
-
+def process_game_headers(games, game_headers):
+    """
+    Processes game headers and creates a new game.
+    """
     for game_header in game_headers:
         game = Game(
             date=datetime.fromisoformat(game_header[0]),
@@ -51,8 +36,13 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
             home_team=Team(team_id=game_header[6]),
             visitor_team=Team(team_id=game_header[7]),
         )
-        games[game.game_id]: dict[str, Game] = game
+        games[game.game_id] = game
 
+
+def process_line_scores(games, line_scores):
+    """
+    Processes line scores and associates them with corresponding games.
+    """
     for line_score in line_scores:
         game_id = line_score[2]
         team_id = line_score[3]
@@ -72,26 +62,11 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
             game.visitor_team.team_name = line_score[6]
             game.visitor_team_points = line_score[22]
 
-    for index, east_conf_standing in enumerate(east_conf_standings):
-        team_id = east_conf_standing[0]
-        for game in games.values():
-            if game.home_team.team_id == team_id:
-                game.home_team.conference = east_conf_standing[4]
-                game.home_team.conference_position = index + 1
-            if game.visitor_team.team_id == team_id:
-                game.visitor_team.conference = east_conf_standing[4]
-                game.visitor_team.conference_position = index + 1
 
-    for index, west_conf_standings in enumerate(west_conf_standings):
-        team_id = west_conf_standings[0]
-        for game in games.values():
-            if game.home_team.team_id == team_id:
-                game.home_team.conference = west_conf_standings[4]
-                game.home_team.conference_position = index + 1
-            if game.visitor_team.team_id == team_id:
-                game.visitor_team.conference = west_conf_standings[4]
-                game.visitor_team.conference_position = index + 1
-
+def process_team_leaders(games, team_leaders):
+    """
+    Processes team leaders and updates the maximum points of a player.
+    """
     for team_leader in team_leaders:
         game_id = team_leader[0]
         for game in games.values():
@@ -99,10 +74,58 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
                 if team_leader[7] >= game.maximum_points_player:
                     game.maximum_points_player = team_leader[7]
 
+
+def process_conf_standings(games, conf_standings):
+    """
+    Processes conference standings and associates them with corresponding games.
+    """
+    for index, conf_standing in enumerate(conf_standings):
+        team_id = conf_standing[0]
+        for game in games.values():
+            if game.home_team.team_id == team_id:
+                game.home_team.conference = conf_standing[4]
+                game.home_team.conference_position = index + 1
+            if game.visitor_team.team_id == team_id:
+                game.visitor_team.conference = conf_standing[4]
+                game.visitor_team.conference_position = index + 1
+
+
+def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
+    """
+    Fetches NBA game data for a given date and returns a dictionary of games.
+    """
+    try:
+        scoreboard = scoreboardv2.ScoreboardV2(day_offset=0, game_date=game_date)
+    except Exception as e:
+        raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
+
+    games: dict[Game] = {}
+    game_headers = scoreboard.game_header.get_dict().get("data", [])
+    line_scores = scoreboard.line_score.get_dict().get("data", [])
+    east_conf_standings = scoreboard.east_conf_standings_by_day.get_dict().get(
+        "data", []
+    )
+    west_conf_standings = scoreboard.west_conf_standings_by_day.get_dict().get(
+        "data", []
+    )
+    team_leaders = scoreboard.team_leaders.get_dict().get("data", [])
+
+    # print(scoreboard.get_json())
+
+    # Process line scores, conference standings, and team leaders
+    process_game_headers(games, game_headers)
+    process_line_scores(games, line_scores)
+    process_team_leaders(games, team_leaders)
+    process_conf_standings(games, east_conf_standings)
+    process_conf_standings(games, west_conf_standings)
+
     return games
 
 
 def calculate_game_points(game: Game) -> int:
+    """
+    Calculate the points of a match based on various statistics.
+    """
     game_points = 0
 
     # score diff
