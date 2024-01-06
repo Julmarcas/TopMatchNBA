@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "topmatchnba"
+version = "0.1.0"
+description = ""
+authors = ["Julio Marquez <marquezcastrojulio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nba-api = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
