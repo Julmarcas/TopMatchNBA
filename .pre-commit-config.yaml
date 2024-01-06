@@ -1,0 +1,150 @@
+%YAML 1.2
+---
+default_install_hook_types:
+  - pre-commit
+  - prepare-commit-msg
+  - commit-msg
+  - post-commit
+  - pre-push
+
+default_stages:
+  - commit
+
+fail_fast: true
+
+repos:
+  - repo: https://github.com/netromdk/vermin
+    rev: v1.5.2
+    hooks:
+      - id: vermin
+        args:
+          - --config-file=vermin.ini
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+        stages:
+          - commit
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+        stages:
+          - commit
+      - id: check-shebang-scripts-are-executable
+        stages:
+          - commit
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+        args:
+          - --unsafe
+      - id: fix-byte-order-marker
+      - id: forbid-new-submodules
+      - id: mixed-line-ending
+        args:
+          - --fix=lf
+      - id: trailing-whitespace
+        stages:
+          - commit
+        args:
+          - --markdown-linebreak-ext=md
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2/
+    rev: v0.8.1
+    hooks:
+      - id: markdownlint-cli2
+        additional_dependencies:
+          - markdownlint-rule-titlecase
+          - markdownlint-cli2-formatter-codequality
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0
+    hooks:
+      - id: prettier
+        additional_dependencies:
+          - prettier@3.0.0
+          - eslint-config-prettier
+          - stylelint-config-prettier
+          - prettier-plugin-java
+          - prettier-plugin-sh
+          - "@prettier/plugin-xml"
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.5
+    hooks:
+      - id: codespell
+
+  - repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.46.1
+    hooks:
+      - id: trufflehog
+        stages:
+          - commit
+          - push
+        entry: trufflehog git file://. --fail --no-update --since-commit HEAD
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.0.282
+    hooks:
+      - id: ruff
+        args:
+          - --exit-non-zero-on-fix
+          - --fix
+
+  - repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
+      - id: black
+
+  - repo: https://github.com/adamchainz/blacken-docs
+    rev: 1.15.0
+    hooks:
+      - id: blacken-docs
+        additional_dependencies:
+          - black
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-docstring-first
+      - id: debug-statements
+      - id: name-tests-test
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.10.1
+    hooks:
+      - id: pyupgrade
+        args:
+          - --py310-plus
+
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.10.0
+    hooks:
+      - id: reorder-python-imports
+        args:
+          - --py39-plus
+          - --application-directories=.:src
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.4.1
+    hooks:
+      - id: mypy
+        args:
+          - -v
+        additional_dependencies:
+          - hypothesis
+          - pytest
+          - typer
+          - types-pyyaml
+          - types-requests
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        args: ["-c", "pyproject.toml"]
+        additional_dependencies: ["bandit[toml]"]
