@@ -14,14 +14,14 @@ fail_fast: true
 
 repos:
   - repo: https://github.com/netromdk/vermin
-    rev: v1.5.2
+    rev: v1.6.0
     hooks:
       - id: vermin
         args:
           - --config-file=vermin.ini
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
         stages:
@@ -52,7 +52,7 @@ repos:
           - --markdown-linebreak-ext=md
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2/
-    rev: v0.8.1
+    rev: v0.11.0
     hooks:
       - id: markdownlint-cli2
         additional_dependencies:
@@ -60,7 +60,7 @@ repos:
           - markdownlint-cli2-formatter-codequality
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.0
+    rev: v3.1.0
     hooks:
       - id: prettier
         additional_dependencies:
@@ -72,12 +72,12 @@ repos:
           - "@prettier/plugin-xml"
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.5
+    rev: v2.2.6
     hooks:
       - id: codespell
 
   - repo: https://github.com/trufflesecurity/trufflehog
-    rev: v3.46.1
+    rev: v3.63.7
     hooks:
       - id: trufflehog
         stages:
@@ -86,7 +86,7 @@ repos:
         entry: trufflehog git file://. --fail --no-update --since-commit HEAD
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.282
+    rev: v0.1.11
     hooks:
       - id: ruff
         args:
@@ -94,19 +94,19 @@ repos:
           - --fix
 
   - repo: https://github.com/psf/black
-    rev: 23.7.0
+    rev: 23.12.1
     hooks:
       - id: black
 
   - repo: https://github.com/adamchainz/blacken-docs
-    rev: 1.15.0
+    rev: 1.16.0
     hooks:
       - id: blacken-docs
         additional_dependencies:
           - black
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-ast
       - id: check-builtin-literals
@@ -115,14 +115,14 @@ repos:
       - id: name-tests-test
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.10.1
+    rev: v3.15.0
     hooks:
       - id: pyupgrade
         args:
           - --py310-plus
 
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.10.0
+    rev: v3.12.0
     hooks:
       - id: reorder-python-imports
         args:
@@ -130,7 +130,7 @@ repos:
           - --application-directories=.:src
 
   - repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.8.0
+    rev: v1.4.1
     hooks:
       - id: mypy
         additional_dependencies:
@@ -141,7 +141,7 @@ repos:
           - types-requests
 
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.5
+    rev: 1.7.6
     hooks:
       - id: bandit
         args: ["-c", "pyproject.toml"]
