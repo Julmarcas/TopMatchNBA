@@ -1,3 +1,5 @@
+import json
+import os
 from dataclasses import dataclass
 from datetime import datetime
 from datetime import timedelta
@@ -23,7 +25,7 @@ class Game:
     visitor_team: Team
     home_team_points: int = 0
     visitor_team_points: int = 0
-    game_points: int = 0
+    game_punctuation: int = 0
     maximum_points_player: int = 0
 
 
@@ -124,44 +126,61 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     return games
 
 
-def calculate_game_points(game: Game) -> int:
+def calculate_game_punctuation(game: Game) -> int:
     """
     Calculate the points of a match based on various statistics.
     """
-    game_points = 0
+    game_punctuation = 0
 
     # score diff
     score_diff = abs(game.home_team_points - game.visitor_team_points)
     if score_diff < 5:
-        game_points += 8
+        game_punctuation += 8
     elif score_diff < 10:
-        game_points += 4
+        game_punctuation += 4
     elif score_diff < 15:
-        game_points += 2
+        game_punctuation += 2
 
     # standings
     if (
         game.home_team.conference_position <= 3
         and game.visitor_team.conference_position <= 3
     ):
-        game_points += 6
+        game_punctuation += 6
     elif (
         game.home_team.conference_position <= 7
         and game.visitor_team.conference_position <= 7
     ):
-        game_points += 4
+        game_punctuation += 4
     elif game.home_team.conference_position <= 3:
-        game_points += 2
+        game_punctuation += 2
     elif game.visitor_team.conference_position <= 3:
-        game_points += 2
+        game_punctuation += 2
 
     # maximum points of a player
     if game.maximum_points_player > 50:
-        game_points += 4
+        game_punctuation += 4
     elif game.maximum_points_player > 40:
-        game_points += 2
+        game_punctuation += 2
 
-    return game_points
+    return game_punctuation
+
+
+def generate_json_for_games(games, output_file="games.json"):
+    data = [
+        {
+            "home_team": game.home_team.team_name,
+            "visitor_team": game.visitor_team.team_name,
+            "game_punctuation": game.game_punctuation,
+        }
+        for game in games
+    ]
+
+    current_dir = os.path.dirname(__file__)
+    json_file_path = os.path.join(current_dir, "..", "public", output_file)
+
+    with open(json_file_path, mode="w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4)
 
 
 def main():
@@ -173,16 +192,18 @@ def main():
     games = fetch_nba_game_data(yesterday)
 
     for game in games.values():
-        game.game_points = calculate_game_points(game)
+        game.game_punctuation = calculate_game_punctuation(game)
 
     sorted_games = sorted(
-        games.values(), key=lambda game: game.game_points, reverse=True
+        games.values(), key=lambda game: game.game_punctuation, reverse=True
     )
 
     for game in sorted_games:
         print(
-            f"{game.home_team.team_name} - {game.visitor_team.team_name}: Points {game.game_points}"
+            f"{game.home_team.team_name} - {game.visitor_team.team_name}: Points {game.game_punctuation}"
         )
+
+    generate_json_for_games(sorted_games)
 
 
 if __name__ == "__main__":
