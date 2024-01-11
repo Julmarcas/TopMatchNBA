@@ -1,27 +1,52 @@
 [
   {
-    "home_team": "Lakers",
-    "visitor_team": "Raptors",
-    "game_punctuation": 10
-  },
-  {
-    "home_team": "Magic",
+    "home_team": "Celtics",
     "visitor_team": "Timberwolves",
-    "game_punctuation": 2
+    "game_punctuation": 12
   },
   {
-    "home_team": "Pistons",
+    "home_team": "Heat",
+    "visitor_team": "Thunder",
+    "game_punctuation": 8
+  },
+  {
+    "home_team": "Hawks",
+    "visitor_team": "76ers",
+    "game_punctuation": 6
+  },
+  {
+    "home_team": "Pacers",
+    "visitor_team": "Wizards",
+    "game_punctuation": 4
+  },
+  {
+    "home_team": "Bulls",
+    "visitor_team": "Rockets",
+    "game_punctuation": 4
+  },
+  {
+    "home_team": "Jazz",
+    "visitor_team": "Nuggets",
+    "game_punctuation": 4
+  },
+  {
+    "home_team": "Clippers",
+    "visitor_team": "Raptors",
+    "game_punctuation": 4
+  },
+  {
+    "home_team": "Hornets",
     "visitor_team": "Kings",
     "game_punctuation": 0
   },
   {
-    "home_team": "Knicks",
-    "visitor_team": "Trail Blazers",
+    "home_team": "Pistons",
+    "visitor_team": "Spurs",
     "game_punctuation": 0
   },
   {
-    "home_team": "Mavericks",
-    "visitor_team": "Grizzlies",
+    "home_team": "Warriors",
+    "visitor_team": "Pelicans",
     "game_punctuation": 0
   }
 ]
