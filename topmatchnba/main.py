@@ -100,7 +100,7 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     """
     try:
         scoreboard = scoreboardv2.ScoreboardV2(
-            day_offset=0, game_date=game_date, timeout=60
+            day_offset=0, game_date=game_date, timeout=120
         )
     except Exception as e:
         raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
