@@ -13,9 +13,14 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("games-container");
-      data.forEach((game) => {
+      data.forEach((item) => {
+        const game = item.game;
+        const homeTeamName = game.home_team.team_name;
+        const visitorTeamName = game.visitor_team.team_name;
+        const gamePunctuation = item.game_punctuation;
+
         const div = document.createElement("div");
-        div.innerHTML = `<strong>${game.home_team}</strong> vs <strong>${game.visitor_team}</strong> -- ${game.game_punctuation}`;
+        div.innerHTML = `<strong>${homeTeamName}</strong> vs <strong>${visitorTeamName}</strong> -- Points: ${gamePunctuation}`;
         container.appendChild(div);
       });
     })

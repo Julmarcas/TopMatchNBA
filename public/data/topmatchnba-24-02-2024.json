@@ -1,17 +1,83 @@
 [
   {
-    "home_team": "Pistons",
-    "visitor_team": "Magic",
+    "game": {
+      "date": "2024-02-24T00:00:00",
+      "game_id": "0022300814",
+      "home_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "home_team_points": 109,
+      "visitor_team_points": 112,
+      "game_punctuation": 8,
+      "maximum_points_player": 26
+    },
     "game_punctuation": 8
   },
   {
-    "home_team": "Knicks",
-    "visitor_team": "Celtics",
+    "game": {
+      "date": "2024-02-24T00:00:00",
+      "game_id": "0022300816",
+      "home_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "home_team_points": 102,
+      "visitor_team_points": 116,
+      "game_punctuation": 6,
+      "maximum_points_player": 34
+    },
     "game_punctuation": 6
   },
   {
-    "home_team": "Timberwolves",
-    "visitor_team": "Nets",
+    "game": {
+      "date": "2024-02-24T00:00:00",
+      "game_id": "0022300815",
+      "home_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 86,
+      "game_punctuation": 2,
+      "maximum_points_player": 29
+    },
     "game_punctuation": 2
   }
 ]

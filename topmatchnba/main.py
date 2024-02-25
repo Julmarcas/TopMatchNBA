@@ -1,5 +1,6 @@
 import json
 import os
+from dataclasses import asdict
 from dataclasses import dataclass
 from datetime import datetime
 from datetime import timedelta
@@ -167,14 +168,17 @@ def calculate_game_punctuation(game: Game) -> int:
 
 
 def generate_json_for_games(games, output_file="games.json"):
-    data = [
-        {
-            "home_team": game.home_team.team_name,
-            "visitor_team": game.visitor_team.team_name,
-            "game_punctuation": game.game_punctuation,
-        }
-        for game in games
-    ]
+    data = []
+    for game in games:
+        game_dict = asdict(game)
+        # Convertir datetime a str en el formato ISO 8601
+        game_dict["date"] = game.date.isoformat()
+        data.append(
+            {
+                "game": game_dict,
+                "game_punctuation": game.game_punctuation,
+            }
+        )
 
     current_dir = os.path.dirname(__file__)
     json_file_path = os.path.join(current_dir, "..", "public", output_file)
