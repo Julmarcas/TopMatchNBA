@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from topmatchnba.main import calculate_game_points
+from topmatchnba.main import calculate_game_punctuation
 from topmatchnba.main import Game
 from topmatchnba.main import process_conf_standings
 from topmatchnba.main import process_game_headers
@@ -361,25 +361,25 @@ def create_test_game(
     )
 
 
-def test_calculate_game_points_tight_game():
+def test_calculate_game_punctuation_tight_game():
     game = create_test_game(100, 98, 5, 4, 30)
-    points = calculate_game_points(game)
+    points = calculate_game_punctuation(game)
     assert points == 12
 
 
-def test_calculate_game_points_large_score_diff():
+def test_calculate_game_punctuation_large_score_diff():
     game = create_test_game(120, 90, 2, 6, 28)
-    points = calculate_game_points(game)
+    points = calculate_game_punctuation(game)
     assert points == 4
 
 
-def test_calculate_game_points_high_scoring_player():
+def test_calculate_game_punctuation_high_scoring_player():
     game = create_test_game(110, 105, 8, 9, 51)
-    points = calculate_game_points(game)
+    points = calculate_game_punctuation(game)
     assert points == 8
 
 
-def test_calculate_game_points_top_teams():
+def test_calculate_game_punctuation_top_teams():
     game = create_test_game(105, 100, 3, 3, 25)
-    points = calculate_game_points(game)
+    points = calculate_game_punctuation(game)
     assert points == 10
