@@ -15,12 +15,23 @@ document.addEventListener("DOMContentLoaded", function () {
       const container = document.getElementById("games-container");
       data.forEach((item) => {
         const game = item.game;
-        const homeTeamName = game.home_team.team_name;
-        const visitorTeamName = game.visitor_team.team_name;
-        const gamePunctuation = item.game_punctuation;
+        const homeTeamLogoPath = `nba_logos/${game.home_team.team_name}.png`;
+        const visitorTeamLogoPath = `nba_logos/${game.visitor_team.team_name}.png`;
 
         const div = document.createElement("div");
-        div.innerHTML = `<strong>${homeTeamName}</strong> vs <strong>${visitorTeamName}</strong> -- Points: ${gamePunctuation}`;
+        div.className = "game";
+
+        div.innerHTML = `
+  <div class="team">
+    <img src="${homeTeamLogoPath}" alt="${game.home_team.team_name}" title="${game.home_team.team_name}" />
+  </div>
+  <span>vs</span>
+  <div class="team">
+    <img src="${visitorTeamLogoPath}" alt="${game.visitor_team.team_name}" title="${game.visitor_team.team_name}" />
+  </div>
+  <div class="game_punctuation">-- Points: ${item.game_punctuation}</div>
+`;
+
         container.appendChild(div);
       });
     })
