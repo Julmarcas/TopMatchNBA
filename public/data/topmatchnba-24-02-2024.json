@@ -1,0 +1,17 @@
+[
+  {
+    "home_team": "Pistons",
+    "visitor_team": "Magic",
+    "game_punctuation": 8
+  },
+  {
+    "home_team": "Knicks",
+    "visitor_team": "Celtics",
+    "game_punctuation": 6
+  },
+  {
+    "home_team": "Timberwolves",
+    "visitor_team": "Nets",
+    "game_punctuation": 2
+  }
+]

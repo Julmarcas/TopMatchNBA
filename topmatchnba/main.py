@@ -203,7 +203,9 @@ def main():
             f"{game.home_team.team_name} - {game.visitor_team.team_name}: Points {game.game_punctuation}"
         )
 
-    generate_json_for_games(sorted_games)
+    output_file = f"data/topmatchnba-{yesterday.strftime('%d-%m-%Y')}.json"
+
+    generate_json_for_games(sorted_games, output_file)
 
 
 if __name__ == "__main__":

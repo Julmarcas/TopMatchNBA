@@ -1,5 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("games.json")
+  const now = new Date();
+  const yesterday = new Date(now.setDate(now.getDate() - 1));
+  const yesterday_date = `${yesterday.getDate().toString().padStart(2, "0")}-${(
+    yesterday.getMonth() + 1
+  )
+    .toString()
+    .padStart(2, "0")}-${yesterday.getFullYear().toString()}`;
+
+  const filename = `data/topmatchnba-${yesterday_date}.json`;
+
+  fetch(filename)
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("games-container");
