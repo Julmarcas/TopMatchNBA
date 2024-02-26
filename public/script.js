@@ -21,10 +21,8 @@ function generateColor(score) {
   const maximumScore = 18;
   const minimumScore = 0;
 
-  let factor =
-    (score - minimumScore) / (maximumScore - minimumScore);
+  let factor = (score - minimumScore) / (maximumScore - minimumScore);
 
-  // Decide the base color and interpolation factor based on the score range
   if (factor > 0.75) {
     return colorToRGBAString(
       interpolateColor(green, yellow, (factor - 0.75) * 4),
@@ -42,21 +40,20 @@ function generateColor(score) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  const now = new Date();
-  const yesterday = new Date(now.setDate(now.getDate() - 1));
-  const yesterday_date = `${yesterday.getDate().toString().padStart(2, "0")}-${(
-    yesterday.getMonth() + 1
-  )
+function formatDate(date) {
+  return `${date.getDate().toString().padStart(2, "0")}-${(date.getMonth() + 1)
     .toString()
-    .padStart(2, "0")}-${yesterday.getFullYear().toString()}`;
+    .padStart(2, "0")}-${date.getFullYear().toString()}`;
+}
 
-  const filename = `data/topmatchnba-${yesterday_date}.json`;
+function loadGamesForDate(date) {
+  const filename = `data/topmatchnba-${formatDate(date)}.json`;
 
   fetch(filename)
     .then((response) => response.json())
     .then((data) => {
       const container = document.getElementById("games-container");
+      container.innerHTML = ""; // Clear existing content
       data.forEach((item) => {
         const game = item.game;
         const homeTeamLogoPath = `nba_logos/${game.home_team.team_name}.png`;
@@ -65,18 +62,53 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const div = document.createElement("div");
         div.className = "game";
-        // div.style.backgroundColor = color;
         div.innerHTML = `
-  <div class="team">
-    <img src="${homeTeamLogoPath}" alt="${game.home_team.team_name}" title="${game.home_team.team_name}" />
-  <span>vs</span>
-    <img src="${visitorTeamLogoPath}" alt="${game.visitor_team.team_name}" title="${game.visitor_team.team_name}" />
-  </div>
-  <div class="game_punctuation" style="color:${color}">${item.game_punctuation}</div>
-`;
+          <div class="team">
+            <img src="${homeTeamLogoPath}" alt="${game.home_team.team_name}" title="${game.home_team.team_name}" />
+            <span>vs</span>
+            <img src="${visitorTeamLogoPath}" alt="${game.visitor_team.team_name}" title="${game.visitor_team.team_name}" />
+          </div>
+          <div class="game_punctuation" style="color:${color}">${item.game_punctuation}</div>
+        `;
 
         container.appendChild(div);
       });
     })
     .catch((error) => console.error("Error:", error));
+}
+
+const now = new Date();
+const yesterday = new Date(now.setDate(now.getDate() - 1));
+let currentDate = yesterday;
+
+const spanCurrentDate = document.createElement("span");
+spanCurrentDate.textContent = formatDate(currentDate);
+
+const nextDayButton = document.createElement("button");
+nextDayButton.textContent = "Next Day >";
+nextDayButton.onclick = function () {
+  currentDate.setDate(currentDate.getDate() + 1);
+  spanCurrentDate.textContent = formatDate(currentDate);
+  console.log(currentDate, "currentDate");
+  console.log(now, "now");
+  if (currentDate === yesterday) nextDayButton.setAttribute("disabled", true);
+  loadGamesForDate(currentDate);
+};
+if (currentDate === yesterday) nextDayButton.setAttribute("disabled", true);
+
+document.addEventListener("DOMContentLoaded", function () {
+  loadGamesForDate(currentDate);
+  const container = document.getElementById("controls-container");
+  const prevDayButton = document.createElement("button");
+  prevDayButton.textContent = "< Previous Day";
+  prevDayButton.onclick = function () {
+    currentDate.setDate(currentDate.getDate() - 1);
+    spanCurrentDate.textContent = formatDate(currentDate);
+    nextDayButton.removeAttribute("disabled");
+    loadGamesForDate(currentDate);
+  };
+
+  container.appendChild(prevDayButton);
+  container.appendChild(spanCurrentDate);
+  container.appendChild(nextDayButton);
 });

@@ -1,14 +1,31 @@
-* {
-  font-family: sans-serif;
+button:hover {
+  background-color: #f0f0f0;
+}
+
+button:active {
+  background-color: #ddd;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(134, 134, 255);
+}
+
+/* Ensure that the navigation buttons are not too close to each other */
+button + button {
+  margin-left: 5px;
+}
+
+/* Additional styles to enhance the appearance of the navigation area */
+.navigation {
+  margin-bottom: 20px;
 }
 
 .logo-container img {
   display: block;
-  margin: 50px auto;
+  margin: 20px auto;
   max-width: 200px;
   height: auto;
 }
@@ -17,24 +34,26 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .game {
-  padding: 10px;
+  padding: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   border: none;
-  background-color: #f5f5f5;
   box-shadow: 5px 5px 5px rgb(53, 53, 93);
   border-radius: 5px;
-  transition: transform 2s;
-  transition-timing-function: ease-out;
+  transition: transform 0.3s ease;
+  background-color: #eceff1;
 }
 
 .game:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .team {
@@ -46,7 +65,7 @@ body {
 .team img {
   object-fit: contain;
   width: 100%;
-  max-width: 400px;
+  max-width: 100px; /* Adjusted for better responsiveness */
   height: auto;
 }
 
@@ -54,25 +73,19 @@ body {
   text-shadow: 1px 1px 2px black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-}
-
-span {
-  font-size: 2vw;
-  font-weight: bold;
-  color: #333;
+  font-size: 7rem; /* Adjusted for better readability */
 }
 
 .game_punctuation {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 3rem;
   text-align: center;
   text-shadow: 1px 1px 2px black;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
 }
 
 @media only screen and (min-width: 992px) {
   .team img {
-    max-width: 200px;
+    max-width: 200px; /* Ensure logos are larger on wider screens */
   }
 }
