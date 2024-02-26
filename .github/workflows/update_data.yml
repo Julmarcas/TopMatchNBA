@@ -28,8 +28,13 @@ jobs:
       - name: Poetry install
         run: poetry install --no-interaction --without dev
 
-      - name: Run script to update JSON
-        run: poetry run topmatchnba
+      - name: Run script to pull NBA data
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 5
+          shell: bash
+          command: poetry run topmatchnba
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
