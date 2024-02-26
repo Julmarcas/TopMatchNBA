@@ -1,0 +1,137 @@
+[
+  {
+    "game": {
+      "date": "2023-11-05T00:00:00",
+      "game_id": "0022300143",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 10
+      },
+      "home_team_points": 124,
+      "visitor_team_points": 118,
+      "game_punctuation": 6,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2023-11-05T00:00:00",
+      "game_id": "0022300140",
+      "home_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612756,
+        "team_abbreviation": "PHX",
+        "team_city_name": "Phoenix",
+        "team_name": "Suns",
+        "conference": "West",
+        "conference_position": 10
+      },
+      "home_team_points": 106,
+      "visitor_team_points": 120,
+      "game_punctuation": 4,
+      "maximum_points_player": 41
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-05T00:00:00",
+      "game_id": "0022300141",
+      "home_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 123,
+      "game_punctuation": 4,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-05T00:00:00",
+      "game_id": "0022300142",
+      "home_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 104,
+      "game_punctuation": 4,
+      "maximum_points_player": 31
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-05T00:00:00",
+      "game_id": "0022300144",
+      "home_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "home_team_points": 100,
+      "visitor_team_points": 112,
+      "game_punctuation": 2,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 2
+  }
+]

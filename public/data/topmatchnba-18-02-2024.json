@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2024-02-18T00:00:00",
+      "game_id": "0032300001",
+      "home_team": {
+        "team_id": 1610616833,
+        "team_abbreviation": "EST",
+        "team_city_name": "East NBA All Stars",
+        "team_name": "East",
+        "conference": "",
+        "conference_position": 0
+      },
+      "visitor_team": {
+        "team_id": 1610616834,
+        "team_abbreviation": "WST",
+        "team_city_name": "West NBA All Stars",
+        "team_name": "West",
+        "conference": "",
+        "conference_position": 0
+      },
+      "home_team_points": 211,
+      "visitor_team_points": 186,
+      "game_punctuation": 8,
+      "maximum_points_player": 50
+    },
+    "game_punctuation": 8
+  }
+]

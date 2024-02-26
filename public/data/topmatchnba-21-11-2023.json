@@ -1,0 +1,137 @@
+[
+  {
+    "game": {
+      "date": "2023-11-21T00:00:00",
+      "game_id": "0022300040",
+      "home_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "home_team_points": 119,
+      "visitor_team_points": 122,
+      "game_punctuation": 12,
+      "maximum_points_player": 32
+    },
+    "game_punctuation": 12
+  },
+  {
+    "game": {
+      "date": "2023-11-21T00:00:00",
+      "game_id": "0022300039",
+      "home_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "home_team_points": 152,
+      "visitor_team_points": 157,
+      "game_punctuation": 4,
+      "maximum_points_player": 38
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-21T00:00:00",
+      "game_id": "0022300041",
+      "home_team": {
+        "team_id": 1610612756,
+        "team_abbreviation": "PHX",
+        "team_city_name": "Phoenix",
+        "team_name": "Suns",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "home_team_points": 120,
+      "visitor_team_points": 107,
+      "game_punctuation": 2,
+      "maximum_points_player": 31
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2023-11-21T00:00:00",
+      "game_id": "0022300038",
+      "home_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 126,
+      "visitor_team_points": 107,
+      "game_punctuation": 0,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2023-11-21T00:00:00",
+      "game_id": "0022300042",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "home_team_points": 131,
+      "visitor_team_points": 99,
+      "game_punctuation": 0,
+      "maximum_points_player": 26
+    },
+    "game_punctuation": 0
+  }
+]

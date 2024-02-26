@@ -1,0 +1,164 @@
+[
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300445",
+      "home_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 126,
+      "visitor_team_points": 130,
+      "game_punctuation": 8,
+      "maximum_points_player": 40
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300450",
+      "home_team": {
+        "team_id": 1610612756,
+        "team_abbreviation": "PHX",
+        "team_city_name": "Phoenix",
+        "team_name": "Suns",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 107,
+      "game_punctuation": 4,
+      "maximum_points_player": 31
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300447",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "home_team_points": 124,
+      "visitor_team_points": 108,
+      "game_punctuation": 2,
+      "maximum_points_player": 24
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300448",
+      "home_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 134,
+      "game_punctuation": 2,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300446",
+      "home_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "home_team_points": 129,
+      "visitor_team_points": 109,
+      "game_punctuation": 0,
+      "maximum_points_player": 34
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2023-12-31T00:00:00",
+      "game_id": "0022300449",
+      "home_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612758,
+        "team_abbreviation": "SAC",
+        "team_city_name": "Sacramento",
+        "team_name": "Kings",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 92,
+      "visitor_team_points": 123,
+      "game_punctuation": 0,
+      "maximum_points_player": 27
+    },
+    "game_punctuation": 0
+  }
+]

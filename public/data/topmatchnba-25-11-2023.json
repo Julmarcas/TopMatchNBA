@@ -1,0 +1,164 @@
+[
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300239",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "home_team_points": 123,
+      "visitor_team_points": 127,
+      "game_punctuation": 12,
+      "maximum_points_player": 35
+    },
+    "game_punctuation": 12
+  },
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300242",
+      "home_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 121,
+      "game_punctuation": 4,
+      "maximum_points_player": 32
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300243",
+      "home_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "visitor_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "home_team_points": 105,
+      "visitor_team_points": 100,
+      "game_punctuation": 4,
+      "maximum_points_player": 26
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300244",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 88,
+      "game_punctuation": 2,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300240",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 97,
+      "game_punctuation": 0,
+      "maximum_points_player": 24
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2023-11-25T00:00:00",
+      "game_id": "0022300241",
+      "home_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 108,
+      "visitor_team_points": 136,
+      "game_punctuation": 0,
+      "maximum_points_player": 26
+    },
+    "game_punctuation": 0
+  }
+]
