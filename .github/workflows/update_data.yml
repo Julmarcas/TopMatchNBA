@@ -1,0 +1,37 @@
+name: Update NBA Data
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # Runs at 7 AM UTC every day
+  push:
+    branches:
+      - store_in_repo
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: Prepare Poetry
+        uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: 1.7.1
+
+      - name: Poetry install
+        run: poetry install --no-interaction --without dev
+
+      - name: Run script to update JSON
+        run: poetry run topmatchnba
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update Games Data
+

@@ -6,6 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 
 from nba_api.stats.endpoints import scoreboardv2
+from fp.fp import FreeProxy
 
 
 @dataclass
@@ -99,8 +100,13 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     """
     Fetches NBA game data for a given date and returns a dictionary of games.
     """
+
+    proxy = FreeProxy(https=True).get()
+
     try:
-        scoreboard = scoreboardv2.ScoreboardV2(day_offset=0, game_date=game_date)
+        scoreboard = scoreboardv2.ScoreboardV2(
+            day_offset=0, game_date=game_date, proxy=proxy
+        )
     except Exception as e:
         raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
 
@@ -171,7 +177,6 @@ def generate_json_for_games(games, output_file="games.json"):
     data = []
     for game in games:
         game_dict = asdict(game)
-        # Convertir datetime a str en el formato ISO 8601
         game_dict["date"] = game.date.isoformat()
         data.append(
             {
@@ -184,7 +189,7 @@ def generate_json_for_games(games, output_file="games.json"):
     json_file_path = os.path.join(current_dir, "..", "public", output_file)
 
     with open(json_file_path, mode="w", encoding="utf-8") as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file, indent=2)
 
 
 def main():

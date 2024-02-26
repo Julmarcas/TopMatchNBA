@@ -1,4 +1,4 @@
-function interpolarColor(color1, color2, factor) {
+function interpolateColor(color1, color2, factor) {
   if (arguments.length < 3) {
     factor = 0.5;
   }
@@ -9,42 +9,36 @@ function interpolarColor(color1, color2, factor) {
   return result;
 }
 
-// function rgbAHex(rgb) {
-//   return "#" + rgb.map(function(value) {
-//     return ("0" + value.toString(16)).slice(-2);
-//   }).join('');
-// }
-
-function colorAStringRGBA(color) {
+function colorToRGBAString(color) {
   return `rgba(${color[0]}, ${color[1]}, ${color[2]})`;
 }
 
-function generarColor(puntuacion) {
-  const verde = [0, 255, 0];
-  const amarillo = [255, 255, 0];
-  const naranja = [255, 165, 0];
-  const rojo = [255, 0, 0];
-  const puntuacionMaxima = 30;
-  const puntuacionMinima = 0;
+function generateColor(score) {
+  const green = [0, 255, 0];
+  const yellow = [255, 255, 0];
+  const orange = [255, 165, 0];
+  const red = [255, 0, 0];
+  const maximumScore = 18;
+  const minimumScore = 0;
 
   let factor =
-    (puntuacion - puntuacionMinima) / (puntuacionMaxima - puntuacionMinima);
+    (score - minimumScore) / (maximumScore - minimumScore);
 
-  // Decide el color base y el factor de interpolación basado en el rango de puntuación
+  // Decide the base color and interpolation factor based on the score range
   if (factor > 0.75) {
-    return colorAStringRGBA(
-      interpolarColor(verde, amarillo, (factor - 0.75) * 4),
+    return colorToRGBAString(
+      interpolateColor(green, yellow, (factor - 0.75) * 4),
     );
   } else if (factor > 0.5) {
-    return colorAStringRGBA(
-      interpolarColor(amarillo, naranja, (factor - 0.5) * 4),
+    return colorToRGBAString(
+      interpolateColor(yellow, orange, (factor - 0.5) * 4),
     );
   } else if (factor > 0.25) {
-    return colorAStringRGBA(
-      interpolarColor(naranja, rojo, (factor - 0.25) * 4),
+    return colorToRGBAString(
+      interpolateColor(orange, red, (factor - 0.25) * 4),
     );
   } else {
-    return colorAStringRGBA(rojo);
+    return colorToRGBAString(red);
   }
 }
 
@@ -67,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const game = item.game;
         const homeTeamLogoPath = `nba_logos/${game.home_team.team_name}.png`;
         const visitorTeamLogoPath = `nba_logos/${game.visitor_team.team_name}.png`;
-        const color = generarColor(item.game_punctuation);
+        const color = generateColor(item.game_punctuation);
 
         const div = document.createElement("div");
         div.className = "game";
