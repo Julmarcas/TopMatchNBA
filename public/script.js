@@ -79,27 +79,31 @@ function loadGamesForDate(date) {
 
 const now = new Date();
 const yesterday = new Date(now.setDate(now.getDate() - 1));
-let currentDate = yesterday;
+let currentDate = new Date(yesterday.getTime());
 
 const spanCurrentDate = document.createElement("span");
 spanCurrentDate.textContent = formatDate(currentDate);
+spanCurrentDate.id = "currentDateSpan";
 
 const nextDayButton = document.createElement("button");
+nextDayButton.className = "button-27";
+nextDayButton.setAttribute("disabled", true);
 nextDayButton.textContent = "Next Day >";
 nextDayButton.onclick = function () {
   currentDate.setDate(currentDate.getDate() + 1);
   spanCurrentDate.textContent = formatDate(currentDate);
   console.log(currentDate, "currentDate");
-  console.log(now, "now");
-  if (currentDate === yesterday) nextDayButton.setAttribute("disabled", true);
+  console.log(yesterday, "yesterday");
+  if (currentDate.getTime() === yesterday.getTime())
+    nextDayButton.setAttribute("disabled", true);
   loadGamesForDate(currentDate);
 };
-if (currentDate === yesterday) nextDayButton.setAttribute("disabled", true);
 
 document.addEventListener("DOMContentLoaded", function () {
   loadGamesForDate(currentDate);
   const container = document.getElementById("controls-container");
   const prevDayButton = document.createElement("button");
+  prevDayButton.className = "button-27";
   prevDayButton.textContent = "< Previous Day";
   prevDayButton.onclick = function () {
     currentDate.setDate(currentDate.getDate() - 1);
