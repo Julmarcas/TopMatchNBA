@@ -1,0 +1,137 @@
+[
+  {
+    "game": {
+      "date": "2024-03-19T00:00:00",
+      "game_id": "0022300995",
+      "home_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 115,
+      "game_punctuation": 14,
+      "maximum_points_player": 35
+    },
+    "game_punctuation": 14
+  },
+  {
+    "game": {
+      "date": "2024-03-19T00:00:00",
+      "game_id": "0022300994",
+      "home_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 113,
+      "game_punctuation": 4,
+      "maximum_points_player": 28
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2024-03-19T00:00:00",
+      "game_id": "0022300992",
+      "home_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "home_team_points": 114,
+      "visitor_team_points": 137,
+      "game_punctuation": 2,
+      "maximum_points_player": 42
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2024-03-19T00:00:00",
+      "game_id": "0022300993",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 91,
+      "visitor_team_points": 104,
+      "game_punctuation": 2,
+      "maximum_points_player": 28
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2024-03-19T00:00:00",
+      "game_id": "0022300991",
+      "home_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 92,
+      "game_punctuation": 0,
+      "maximum_points_player": 21
+    },
+    "game_punctuation": 0
+  }
+]
