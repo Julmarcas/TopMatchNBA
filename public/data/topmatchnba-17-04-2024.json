@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-04-17T00:00:00",
+      "game_id": "0052300101",
+      "home_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 105,
+      "visitor_team_points": 104,
+      "game_punctuation": 8,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-04-17T00:00:00",
+      "game_id": "0052300111",
+      "home_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 10
+      },
+      "home_team_points": 131,
+      "visitor_team_points": 116,
+      "game_punctuation": 2,
+      "maximum_points_player": 42
+    },
+    "game_punctuation": 2
+  }
+]
