@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-04-24T00:00:00",
+      "game_id": "0042300102",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 111,
+      "game_punctuation": 4,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2024-04-24T00:00:00",
+      "game_id": "0042300142",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "home_team_points": 124,
+      "visitor_team_points": 92,
+      "game_punctuation": 4,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 4
+  }
+]
