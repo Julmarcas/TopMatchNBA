@@ -1,0 +1,83 @@
+[
+  {
+    "game": {
+      "date": "2024-04-25T00:00:00",
+      "game_id": "0042300113",
+      "home_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "home_team_points": 125,
+      "visitor_team_points": 114,
+      "game_punctuation": 8,
+      "maximum_points_player": 50
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-04-25T00:00:00",
+      "game_id": "0042300153",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "home_team_points": 105,
+      "visitor_team_points": 112,
+      "game_punctuation": 6,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2024-04-25T00:00:00",
+      "game_id": "0042300133",
+      "home_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "home_team_points": 121,
+      "visitor_team_points": 83,
+      "game_punctuation": 4,
+      "maximum_points_player": 31
+    },
+    "game_punctuation": 4
+  }
+]
