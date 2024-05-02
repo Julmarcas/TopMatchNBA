@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-05-01T00:00:00",
+      "game_id": "0042300175",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 93,
+      "visitor_team_points": 123,
+      "game_punctuation": 4,
+      "maximum_points_player": 35
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2024-05-01T00:00:00",
+      "game_id": "0042300105",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 118,
+      "visitor_team_points": 84,
+      "game_punctuation": 2,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 2
+  }
+]
