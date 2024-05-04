@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-05-03T00:00:00",
+      "game_id": "0042300136",
+      "home_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "home_team_points": 103,
+      "visitor_team_points": 96,
+      "game_punctuation": 10,
+      "maximum_points_player": 50
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2024-05-03T00:00:00",
+      "game_id": "0042300176",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "home_team_points": 114,
+      "visitor_team_points": 101,
+      "game_punctuation": 6,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 6
+  }
+]
