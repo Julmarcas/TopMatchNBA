@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2024-05-08T00:00:00",
+      "game_id": "0042300212",
+      "home_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "home_team_points": 130,
+      "visitor_team_points": 121,
+      "game_punctuation": 8,
+      "maximum_points_player": 34
+    },
+    "game_punctuation": 8
+  }
+]
