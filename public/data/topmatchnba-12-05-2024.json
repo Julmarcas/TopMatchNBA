@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-05-12T00:00:00",
+      "game_id": "0042300234",
+      "home_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 115,
+      "game_punctuation": 12,
+      "maximum_points_player": 44
+    },
+    "game_punctuation": 12
+  },
+  {
+    "game": {
+      "date": "2024-05-12T00:00:00",
+      "game_id": "0042300214",
+      "home_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "home_team_points": 121,
+      "visitor_team_points": 89,
+      "game_punctuation": 4,
+      "maximum_points_player": 20
+    },
+    "game_punctuation": 4
+  }
+]
