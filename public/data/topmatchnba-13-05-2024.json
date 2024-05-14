@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-05-13T00:00:00",
+      "game_id": "0042300224",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "home_team_points": 96,
+      "visitor_team_points": 100,
+      "game_punctuation": 12,
+      "maximum_points_player": 34
+    },
+    "game_punctuation": 12
+  },
+  {
+    "game": {
+      "date": "2024-05-13T00:00:00",
+      "game_id": "0042300204",
+      "home_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "home_team_points": 102,
+      "visitor_team_points": 109,
+      "game_punctuation": 8,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 8
+  }
+]
