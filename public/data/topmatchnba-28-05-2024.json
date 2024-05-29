@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2024-05-28T00:00:00",
+      "game_id": "0042300314",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "home_team_points": 100,
+      "visitor_team_points": 105,
+      "game_punctuation": 8,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 8
+  }
+]
