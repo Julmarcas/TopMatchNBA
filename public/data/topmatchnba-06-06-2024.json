@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2024-06-06T00:00:00",
+      "game_id": "0042300401",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 89,
+      "game_punctuation": 4,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 4
+  }
+]
