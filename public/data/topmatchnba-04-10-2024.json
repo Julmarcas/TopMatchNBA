@@ -1,0 +1,83 @@
+[
+  {
+    "game": {
+      "date": "2024-10-04T00:00:00",
+      "game_id": "0012400001",
+      "home_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "home_team_points": 103,
+      "visitor_team_points": 107,
+      "game_punctuation": 14,
+      "maximum_points_player": 21
+    },
+    "game_punctuation": 14
+  },
+  {
+    "game": {
+      "date": "2024-10-04T00:00:00",
+      "game_id": "0012400002",
+      "home_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 15020,
+        "team_abbreviation": "NZB",
+        "team_city_name": "New Zealand",
+        "team_name": "Breakers",
+        "conference": "",
+        "conference_position": 0
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 87,
+      "game_punctuation": 6,
+      "maximum_points_player": 19
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2024-10-04T00:00:00",
+      "game_id": "0012400003",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 124,
+      "game_punctuation": 4,
+      "maximum_points_player": 22
+    },
+    "game_punctuation": 4
+  }
+]
