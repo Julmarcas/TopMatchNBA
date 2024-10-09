@@ -1,0 +1,137 @@
+[
+  {
+    "game": {
+      "date": "2024-10-08T00:00:00",
+      "game_id": "0012400016",
+      "home_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 10
+      },
+      "visitor_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 116,
+      "game_punctuation": 10,
+      "maximum_points_player": 21
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2024-10-08T00:00:00",
+      "game_id": "0012400018",
+      "home_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 131,
+      "visitor_team_points": 130,
+      "game_punctuation": 10,
+      "maximum_points_player": 19
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2024-10-08T00:00:00",
+      "game_id": "0012400015",
+      "home_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "home_team_points": 111,
+      "visitor_team_points": 108,
+      "game_punctuation": 8,
+      "maximum_points_player": 24
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-10-08T00:00:00",
+      "game_id": "0012400017",
+      "home_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612756,
+        "team_abbreviation": "PHX",
+        "team_city_name": "Phoenix",
+        "team_name": "Suns",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "home_team_points": 97,
+      "visitor_team_points": 105,
+      "game_punctuation": 6,
+      "maximum_points_player": 21
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2024-10-08T00:00:00",
+      "game_id": "0012400019",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 106,
+      "game_punctuation": 4,
+      "maximum_points_player": 14
+    },
+    "game_punctuation": 4
+  }
+]
