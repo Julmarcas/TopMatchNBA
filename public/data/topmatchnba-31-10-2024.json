@@ -1,0 +1,110 @@
+[
+  {
+    "game": {
+      "date": "2024-10-31T00:00:00",
+      "game_id": "0022400129",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 102,
+      "visitor_team_points": 108,
+      "game_punctuation": 8,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-10-31T00:00:00",
+      "game_id": "0022400131",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612756,
+        "team_abbreviation": "PHX",
+        "team_city_name": "Phoenix",
+        "team_name": "Suns",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "home_team_points": 119,
+      "visitor_team_points": 125,
+      "game_punctuation": 6,
+      "maximum_points_player": 40
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2024-10-31T00:00:00",
+      "game_id": "0022400128",
+      "home_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612749,
+        "team_abbreviation": "MIL",
+        "team_city_name": "Milwaukee",
+        "team_name": "Bucks",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "home_team_points": 122,
+      "visitor_team_points": 99,
+      "game_punctuation": 0,
+      "maximum_points_player": 37
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2024-10-31T00:00:00",
+      "game_id": "0022400130",
+      "home_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "home_team_points": 88,
+      "visitor_team_points": 106,
+      "game_punctuation": 0,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 0
+  }
+]
