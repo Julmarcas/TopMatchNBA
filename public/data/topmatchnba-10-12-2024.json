@@ -1,0 +1,56 @@
+[
+  {
+    "game": {
+      "date": "2024-12-10T00:00:00",
+      "game_id": "0022401201",
+      "home_team": {
+        "team_id": 1610612749,
+        "team_abbreviation": "MIL",
+        "team_city_name": "Milwaukee",
+        "team_name": "Bucks",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "home_team_points": 114,
+      "visitor_team_points": 109,
+      "game_punctuation": 8,
+      "maximum_points_player": 37
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-12-10T00:00:00",
+      "game_id": "0022401203",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "home_team_points": 118,
+      "visitor_team_points": 104,
+      "game_punctuation": 6,
+      "maximum_points_player": 39
+    },
+    "game_punctuation": 6
+  }
+]
