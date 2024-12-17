@@ -1,0 +1,164 @@
+[
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401221",
+      "home_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 10
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "home_team_points": 125,
+      "visitor_team_points": 124,
+      "game_punctuation": 8,
+      "maximum_points_player": 35
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401223",
+      "home_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 121,
+      "visitor_team_points": 122,
+      "game_punctuation": 8,
+      "maximum_points_player": 32
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401225",
+      "home_team": {
+        "team_id": 1610612758,
+        "team_abbreviation": "SAC",
+        "team_city_name": "Sacramento",
+        "team_name": "Kings",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "visitor_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "home_team_points": 129,
+      "visitor_team_points": 130,
+      "game_punctuation": 8,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401222",
+      "home_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "home_team_points": 108,
+      "visitor_team_points": 121,
+      "game_punctuation": 2,
+      "maximum_points_player": 40
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401224",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 130,
+      "game_punctuation": 2,
+      "maximum_points_player": 22
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2024-12-16T00:00:00",
+      "game_id": "0022401226",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "home_team_points": 144,
+      "visitor_team_points": 107,
+      "game_punctuation": 2,
+      "maximum_points_player": 41
+    },
+    "game_punctuation": 2
+  }
+]
