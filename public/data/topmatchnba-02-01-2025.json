@@ -1,0 +1,164 @@
+[
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400464",
+      "home_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 118,
+      "game_punctuation": 10,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400465",
+      "home_team": {
+        "team_id": 1610612749,
+        "team_abbreviation": "MIL",
+        "team_city_name": "Milwaukee",
+        "team_name": "Bucks",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "home_team_points": 110,
+      "visitor_team_points": 113,
+      "game_punctuation": 8,
+      "maximum_points_player": 27
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400466",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 98,
+      "game_punctuation": 4,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400468",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "home_team_points": 114,
+      "visitor_team_points": 106,
+      "game_punctuation": 4,
+      "maximum_points_player": 38
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400463",
+      "home_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 128,
+      "game_punctuation": 2,
+      "maximum_points_player": 33
+    },
+    "game_punctuation": 2
+  },
+  {
+    "game": {
+      "date": "2025-01-02T00:00:00",
+      "game_id": "0022400467",
+      "home_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 139,
+      "visitor_team_points": 105,
+      "game_punctuation": 0,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 0
+  }
+]
