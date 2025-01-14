@@ -1,0 +1,164 @@
+[
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400551",
+      "home_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "home_team_points": 120,
+      "visitor_team_points": 118,
+      "game_punctuation": 16,
+      "maximum_points_player": 42
+    },
+    "game_punctuation": 16
+  },
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400550",
+      "home_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "home_team_points": 104,
+      "visitor_team_points": 101,
+      "game_punctuation": 8,
+      "maximum_points_player": 26
+    },
+    "game_punctuation": 8
+  },
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400549",
+      "home_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 119,
+      "visitor_team_points": 124,
+      "game_punctuation": 6,
+      "maximum_points_player": 36
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400553",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "home_team_points": 109,
+      "visitor_team_points": 98,
+      "game_punctuation": 6,
+      "maximum_points_player": 32
+    },
+    "game_punctuation": 6
+  },
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400548",
+      "home_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "home_team_points": 106,
+      "visitor_team_points": 120,
+      "game_punctuation": 4,
+      "maximum_points_player": 41
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-13T00:00:00",
+      "game_id": "0022400552",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "home_team_points": 102,
+      "visitor_team_points": 126,
+      "game_punctuation": 0,
+      "maximum_points_player": 30
+    },
+    "game_punctuation": 0
+  }
+]
