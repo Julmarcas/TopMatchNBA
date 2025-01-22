@@ -1,0 +1,137 @@
+[
+  {
+    "game": {
+      "date": "2025-01-21T00:00:00",
+      "game_id": "0022400606",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "home_team_points": 95,
+      "visitor_team_points": 99,
+      "game_punctuation": 10,
+      "maximum_points_player": 25
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2025-01-21T00:00:00",
+      "game_id": "0022400607",
+      "home_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "home_team_points": 107,
+      "visitor_team_points": 116,
+      "game_punctuation": 4,
+      "maximum_points_player": 24
+    },
+    "game_punctuation": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-21T00:00:00",
+      "game_id": "0022400608",
+      "home_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "home_team_points": 109,
+      "visitor_team_points": 93,
+      "game_punctuation": 0,
+      "maximum_points_player": 26
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2025-01-21T00:00:00",
+      "game_id": "0022400609",
+      "home_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "home_team_points": 144,
+      "visitor_team_points": 109,
+      "game_punctuation": 0,
+      "maximum_points_player": 28
+    },
+    "game_punctuation": 0
+  },
+  {
+    "game": {
+      "date": "2025-01-21T00:00:00",
+      "game_id": "0022400610",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "home_team_points": 111,
+      "visitor_team_points": 88,
+      "game_punctuation": 0,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 0
+  }
+]
