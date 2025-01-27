@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2025-01-26T00:00:00",
+      "game_id": "0022400647",
+      "home_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "home_team_points": 108,
+      "visitor_team_points": 118,
+      "game_punctuation": 4,
+      "maximum_points_player": 35
+    },
+    "game_punctuation": 4
+  }
+]
