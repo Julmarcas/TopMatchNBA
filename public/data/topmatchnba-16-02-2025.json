@@ -1,0 +1,83 @@
+[
+  {
+    "game": {
+      "date": "2025-02-16T00:00:00",
+      "game_id": "0032400011",
+      "home_team": {
+        "team_id": 1610616851,
+        "team_abbreviation": "CHK",
+        "team_city_name": "",
+        "team_name": "Global Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "visitor_team": {
+        "team_id": 1610616853,
+        "team_abbreviation": "KEN",
+        "team_city_name": "",
+        "team_name": "Young Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "home_team_points": 41,
+      "visitor_team_points": 32,
+      "game_punctuation": 10,
+      "maximum_points_player": 12
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2025-02-16T00:00:00",
+      "game_id": "0032400021",
+      "home_team": {
+        "team_id": 1610616852,
+        "team_abbreviation": "SHQ",
+        "team_city_name": "",
+        "team_name": "OGs",
+        "conference": "",
+        "conference_position": 0
+      },
+      "visitor_team": {
+        "team_id": 1610616854,
+        "team_abbreviation": "CAN",
+        "team_city_name": "",
+        "team_name": "Rising Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "home_team_points": 42,
+      "visitor_team_points": 35,
+      "game_punctuation": 10,
+      "maximum_points_player": 9
+    },
+    "game_punctuation": 10
+  },
+  {
+    "game": {
+      "date": "2025-02-16T00:00:00",
+      "game_id": "0032400031",
+      "home_team": {
+        "team_id": 1610616851,
+        "team_abbreviation": "CHK",
+        "team_city_name": "",
+        "team_name": "Global Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "visitor_team": {
+        "team_id": 1610616852,
+        "team_abbreviation": "SHQ",
+        "team_city_name": "",
+        "team_name": "OGs",
+        "conference": "",
+        "conference_position": 0
+      },
+      "home_team_points": 25,
+      "visitor_team_points": 41,
+      "game_punctuation": 6,
+      "maximum_points_player": 15
+    },
+    "game_punctuation": 6
+  }
+]
