@@ -1,0 +1,29 @@
+[
+  {
+    "game": {
+      "date": "2025-02-19T00:00:00",
+      "game_id": "0022400524",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "home_team_points": 97,
+      "visitor_team_points": 100,
+      "game_punctuation": 8,
+      "maximum_points_player": 29
+    },
+    "game_punctuation": 8
+  }
+]
