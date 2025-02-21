@@ -8,7 +8,7 @@ default_install_hook_types:
   - pre-push
 
 default_stages:
-  - commit
+  - pre-commit
 
 fail_fast: true
 
@@ -25,14 +25,14 @@ repos:
     hooks:
       - id: check-added-large-files
         stages:
-          - commit
+          - pre-commit
       - id: check-case-conflict
       - id: check-executables-have-shebangs
         stages:
-          - commit
+          - pre-commit
       - id: check-shebang-scripts-are-executable
         stages:
-          - commit
+          - pre-commit
       - id: check-merge-conflict
       - id: check-symlinks
       - id: check-toml
@@ -47,7 +47,7 @@ repos:
           - --fix=lf
       - id: trailing-whitespace
         stages:
-          - commit
+          - pre-commit
         args:
           - --markdown-linebreak-ext=md
 
@@ -81,8 +81,8 @@ repos:
     hooks:
       - id: trufflehog
         stages:
-          - commit
-          - push
+          - pre-commit
+          - pre-push
         entry: trufflehog git file://. --fail --no-update --since-commit HEAD
 
   - repo: https://github.com/charliermarsh/ruff-pre-commit
