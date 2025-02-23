@@ -5,8 +5,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from datetime import timedelta
 
-from nba_api.stats.endpoints import scoreboardv2
 from fp.fp import FreeProxy
+from nba_api.stats.endpoints import scoreboardv2
 
 
 @dataclass
@@ -101,7 +101,7 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     Fetches NBA game data for a given date and returns a dictionary of games.
     """
 
-    proxy = FreeProxy(https=True).get()
+    proxy = FreeProxy().get()
 
     try:
         scoreboard = scoreboardv2.ScoreboardV2(
