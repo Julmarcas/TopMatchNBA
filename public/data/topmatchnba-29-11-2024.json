@@ -19,39 +19,19 @@
         "conference": "East",
         "conference_position": 4
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 10,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 16
+      },
       "home_team_points": 98,
       "visitor_team_points": 99,
-      "game_punctuation": 8,
-      "maximum_points_player": 31
+      "maximum_points_player": 31,
+      "lead_changes": 7
     },
-    "game_punctuation": 8
-  },
-  {
-    "game": {
-      "date": "2024-11-29T00:00:00",
-      "game_id": "0022400044",
-      "home_team": {
-        "team_id": 1610612750,
-        "team_abbreviation": "MIN",
-        "team_city_name": "Minnesota",
-        "team_name": "Timberwolves",
-        "conference": "West",
-        "conference_position": 11
-      },
-      "visitor_team": {
-        "team_id": 1610612746,
-        "team_abbreviation": "LAC",
-        "team_city_name": "LA",
-        "team_name": "Clippers",
-        "conference": "West",
-        "conference_position": 8
-      },
-      "home_team_points": 93,
-      "visitor_team_points": 92,
-      "game_punctuation": 8,
-      "maximum_points_player": 21
-    },
-    "game_punctuation": 8
+    "game_rating_total": 16
   },
   {
     "game": {
@@ -73,12 +53,53 @@
         "conference": "West",
         "conference_position": 1
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 14
+      },
       "home_team_points": 93,
       "visitor_team_points": 101,
-      "game_punctuation": 8,
-      "maximum_points_player": 36
+      "maximum_points_player": 36,
+      "lead_changes": 8
     },
-    "game_punctuation": 8
+    "game_rating_total": 14
+  },
+  {
+    "game": {
+      "date": "2024-11-29T00:00:00",
+      "game_id": "0022400044",
+      "home_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 10,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 12
+      },
+      "home_team_points": 93,
+      "visitor_team_points": 92,
+      "maximum_points_player": 21,
+      "lead_changes": 5
+    },
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -100,39 +121,19 @@
         "conference": "East",
         "conference_position": 2
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 12
+      },
       "home_team_points": 129,
       "visitor_team_points": 138,
-      "game_punctuation": 6,
-      "maximum_points_player": 35
+      "maximum_points_player": 35,
+      "lead_changes": 9
     },
-    "game_punctuation": 6
-  },
-  {
-    "game": {
-      "date": "2024-11-29T00:00:00",
-      "game_id": "0022400041",
-      "home_team": {
-        "team_id": 1610612737,
-        "team_abbreviation": "ATL",
-        "team_city_name": "Atlanta",
-        "team_name": "Hawks",
-        "conference": "East",
-        "conference_position": 7
-      },
-      "visitor_team": {
-        "team_id": 1610612739,
-        "team_abbreviation": "CLE",
-        "team_city_name": "Cleveland",
-        "team_name": "Cavaliers",
-        "conference": "East",
-        "conference_position": 1
-      },
-      "home_team_points": 117,
-      "visitor_team_points": 101,
-      "game_punctuation": 4,
-      "maximum_points_player": 29
-    },
-    "game_punctuation": 4
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -154,66 +155,19 @@
         "conference": "West",
         "conference_position": 12
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 10
+      },
       "home_team_points": 115,
       "visitor_team_points": 106,
-      "game_punctuation": 4,
-      "maximum_points_player": 29
+      "maximum_points_player": 29,
+      "lead_changes": 8
     },
-    "game_punctuation": 4
-  },
-  {
-    "game": {
-      "date": "2024-11-29T00:00:00",
-      "game_id": "0022400042",
-      "home_team": {
-        "team_id": 1610612763,
-        "team_abbreviation": "MEM",
-        "team_city_name": "Memphis",
-        "team_name": "Grizzlies",
-        "conference": "West",
-        "conference_position": 4
-      },
-      "visitor_team": {
-        "team_id": 1610612740,
-        "team_abbreviation": "NOP",
-        "team_city_name": "New Orleans",
-        "team_name": "Pelicans",
-        "conference": "West",
-        "conference_position": 15
-      },
-      "home_team_points": 120,
-      "visitor_team_points": 109,
-      "game_punctuation": 2,
-      "maximum_points_player": 30
-    },
-    "game_punctuation": 2
-  },
-  {
-    "game": {
-      "date": "2024-11-29T00:00:00",
-      "game_id": "0022400043",
-      "home_team": {
-        "team_id": 1610612751,
-        "team_abbreviation": "BKN",
-        "team_city_name": "Brooklyn",
-        "team_name": "Nets",
-        "conference": "East",
-        "conference_position": 8
-      },
-      "visitor_team": {
-        "team_id": 1610612753,
-        "team_abbreviation": "ORL",
-        "team_city_name": "Orlando",
-        "team_name": "Magic",
-        "conference": "East",
-        "conference_position": 3
-      },
-      "home_team_points": 100,
-      "visitor_team_points": 123,
-      "game_punctuation": 2,
-      "maximum_points_player": 29
-    },
-    "game_punctuation": 2
+    "game_rating_total": 10
   },
   {
     "game": {
@@ -235,12 +189,121 @@
         "conference": "East",
         "conference_position": 13
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 6
+      },
       "home_team_points": 121,
       "visitor_team_points": 111,
-      "game_punctuation": 2,
-      "maximum_points_player": 26
+      "maximum_points_player": 26,
+      "lead_changes": 7
     },
-    "game_punctuation": 2
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2024-11-29T00:00:00",
+      "game_id": "0022400041",
+      "home_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
+      "home_team_points": 117,
+      "visitor_team_points": 101,
+      "maximum_points_player": 29,
+      "lead_changes": 3
+    },
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2024-11-29T00:00:00",
+      "game_id": "0022400042",
+      "home_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 2
+      },
+      "home_team_points": 120,
+      "visitor_team_points": 109,
+      "maximum_points_player": 30,
+      "lead_changes": 5
+    },
+    "game_rating_total": 2
+  },
+  {
+    "game": {
+      "date": "2024-11-29T00:00:00",
+      "game_id": "0022400043",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 100,
+      "visitor_team_points": 123,
+      "maximum_points_player": 29,
+      "lead_changes": 2
+    },
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -262,11 +325,18 @@
         "conference": "East",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 106,
       "visitor_team_points": 130,
-      "game_punctuation": 0,
-      "maximum_points_player": 25
+      "maximum_points_player": 25,
+      "lead_changes": 0
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   }
 ]

@@ -2,60 +2,6 @@
   {
     "game": {
       "date": "2025-02-12T00:00:00",
-      "game_id": "0022400773",
-      "home_team": {
-        "team_id": 1610612752,
-        "team_abbreviation": "NYK",
-        "team_city_name": "New York",
-        "team_name": "Knicks",
-        "conference": "East",
-        "conference_position": 3
-      },
-      "visitor_team": {
-        "team_id": 1610612737,
-        "team_abbreviation": "ATL",
-        "team_city_name": "Atlanta",
-        "team_name": "Hawks",
-        "conference": "East",
-        "conference_position": 9
-      },
-      "home_team_points": 149,
-      "visitor_team_points": 148,
-      "game_punctuation": 12,
-      "maximum_points_player": 44
-    },
-    "game_punctuation": 12
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400776",
-      "home_team": {
-        "team_id": 1610612750,
-        "team_abbreviation": "MIN",
-        "team_city_name": "Minnesota",
-        "team_name": "Timberwolves",
-        "conference": "West",
-        "conference_position": 7
-      },
-      "visitor_team": {
-        "team_id": 1610612749,
-        "team_abbreviation": "MIL",
-        "team_city_name": "Milwaukee",
-        "team_name": "Bucks",
-        "conference": "East",
-        "conference_position": 5
-      },
-      "home_team_points": 101,
-      "visitor_team_points": 103,
-      "game_punctuation": 12,
-      "maximum_points_player": 28
-    },
-    "game_punctuation": 12
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
       "game_id": "0022400771",
       "home_team": {
         "team_id": 1610612764,
@@ -73,201 +19,53 @@
         "conference": "East",
         "conference_position": 4
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 2,
+        "change_lead": 6,
+        "total": 14
+      },
       "home_team_points": 130,
       "visitor_team_points": 134,
-      "game_punctuation": 10,
-      "maximum_points_player": 42
+      "maximum_points_player": 42,
+      "lead_changes": 9
     },
-    "game_punctuation": 10
+    "game_rating_total": 14
   },
   {
     "game": {
       "date": "2025-02-12T00:00:00",
-      "game_id": "0022400782",
+      "game_id": "0022400773",
       "home_team": {
-        "team_id": 1610612742,
-        "team_abbreviation": "DAL",
-        "team_city_name": "Dallas",
-        "team_name": "Mavericks",
-        "conference": "West",
-        "conference_position": 8
-      },
-      "visitor_team": {
-        "team_id": 1610612744,
-        "team_abbreviation": "GSW",
-        "team_city_name": "Golden State",
-        "team_name": "Warriors",
-        "conference": "West",
-        "conference_position": 10
-      },
-      "home_team_points": 111,
-      "visitor_team_points": 107,
-      "game_punctuation": 10,
-      "maximum_points_player": 42
-    },
-    "game_punctuation": 10
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400772",
-      "home_team": {
-        "team_id": 1610612751,
-        "team_abbreviation": "BKN",
-        "team_city_name": "Brooklyn",
-        "team_name": "Nets",
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
         "conference": "East",
-        "conference_position": 11
-      },
-      "visitor_team": {
-        "team_id": 1610612755,
-        "team_abbreviation": "PHI",
-        "team_city_name": "Philadelphia",
-        "team_name": "76ers",
-        "conference": "East",
-        "conference_position": 12
-      },
-      "home_team_points": 100,
-      "visitor_team_points": 96,
-      "game_punctuation": 8,
-      "maximum_points_player": 30
-    },
-    "game_punctuation": 8
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400780",
-      "home_team": {
-        "team_id": 1610612743,
-        "team_abbreviation": "DEN",
-        "team_city_name": "Denver",
-        "team_name": "Nuggets",
-        "conference": "West",
         "conference_position": 3
       },
       "visitor_team": {
-        "team_id": 1610612757,
-        "team_abbreviation": "POR",
-        "team_city_name": "Portland",
-        "team_name": "Trail Blazers",
-        "conference": "West",
-        "conference_position": 13
-      },
-      "home_team_points": 132,
-      "visitor_team_points": 121,
-      "game_punctuation": 8,
-      "maximum_points_player": 55
-    },
-    "game_punctuation": 8
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400783",
-      "home_team": {
-        "team_id": 1610612746,
-        "team_abbreviation": "LAC",
-        "team_city_name": "LA",
-        "team_name": "Clippers",
-        "conference": "West",
-        "conference_position": 6
-      },
-      "visitor_team": {
-        "team_id": 1610612763,
-        "team_abbreviation": "MEM",
-        "team_city_name": "Memphis",
-        "team_name": "Grizzlies",
-        "conference": "West",
-        "conference_position": 2
-      },
-      "home_team_points": 128,
-      "visitor_team_points": 114,
-      "game_punctuation": 6,
-      "maximum_points_player": 25
-    },
-    "game_punctuation": 6
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400769",
-      "home_team": {
-        "team_id": 1610612738,
-        "team_abbreviation": "BOS",
-        "team_city_name": "Boston",
-        "team_name": "Celtics",
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
         "conference": "East",
-        "conference_position": 2
-      },
-      "visitor_team": {
-        "team_id": 1610612759,
-        "team_abbreviation": "SAS",
-        "team_city_name": "San Antonio",
-        "team_name": "Spurs",
-        "conference": "West",
-        "conference_position": 12
-      },
-      "home_team_points": 116,
-      "visitor_team_points": 103,
-      "game_punctuation": 4,
-      "maximum_points_player": 32
-    },
-    "game_punctuation": 4
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400777",
-      "home_team": {
-        "team_id": 1610612740,
-        "team_abbreviation": "NOP",
-        "team_city_name": "New Orleans",
-        "team_name": "Pelicans",
-        "conference": "West",
-        "conference_position": 15
-      },
-      "visitor_team": {
-        "team_id": 1610612758,
-        "team_abbreviation": "SAC",
-        "team_city_name": "Sacramento",
-        "team_name": "Kings",
-        "conference": "West",
         "conference_position": 9
       },
-      "home_team_points": 111,
-      "visitor_team_points": 119,
-      "game_punctuation": 4,
-      "maximum_points_player": 33
-    },
-    "game_punctuation": 4
-  },
-  {
-    "game": {
-      "date": "2025-02-12T00:00:00",
-      "game_id": "0022400778",
-      "home_team": {
-        "team_id": 1610612760,
-        "team_abbreviation": "OKC",
-        "team_city_name": "Oklahoma City",
-        "team_name": "Thunder",
-        "conference": "West",
-        "conference_position": 1
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 10,
+        "maximum_points_player": 2,
+        "change_lead": 0,
+        "total": 14
       },
-      "visitor_team": {
-        "team_id": 1610612748,
-        "team_abbreviation": "MIA",
-        "team_city_name": "Miami",
-        "team_name": "Heat",
-        "conference": "East",
-        "conference_position": 8
-      },
-      "home_team_points": 115,
-      "visitor_team_points": 101,
-      "game_punctuation": 4,
-      "maximum_points_player": 32
+      "home_team_points": 149,
+      "visitor_team_points": 148,
+      "maximum_points_player": 44,
+      "lead_changes": 3
     },
-    "game_punctuation": 4
+    "game_rating_total": 14
   },
   {
     "game": {
@@ -289,39 +87,87 @@
         "conference": "West",
         "conference_position": 11
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 10,
+        "total": 14
+      },
       "home_team_points": 119,
       "visitor_team_points": 111,
-      "game_punctuation": 4,
-      "maximum_points_player": 37
+      "maximum_points_player": 37,
+      "lead_changes": 17
     },
-    "game_punctuation": 4
+    "game_rating_total": 14
   },
   {
     "game": {
       "date": "2025-02-12T00:00:00",
-      "game_id": "0022400774",
+      "game_id": "0022400776",
       "home_team": {
-        "team_id": 1610612761,
-        "team_abbreviation": "TOR",
-        "team_city_name": "Toronto",
-        "team_name": "Raptors",
-        "conference": "East",
-        "conference_position": 13
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 7
       },
       "visitor_team": {
-        "team_id": 1610612739,
-        "team_abbreviation": "CLE",
-        "team_city_name": "Cleveland",
-        "team_name": "Cavaliers",
+        "team_id": 1610612749,
+        "team_abbreviation": "MIL",
+        "team_city_name": "Milwaukee",
+        "team_name": "Bucks",
         "conference": "East",
-        "conference_position": 1
+        "conference_position": 5
       },
-      "home_team_points": 108,
-      "visitor_team_points": 131,
-      "game_punctuation": 2,
-      "maximum_points_player": 27
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 12
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 103,
+      "maximum_points_player": 28,
+      "lead_changes": 3
     },
-    "game_punctuation": 2
+    "game_rating_total": 12
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400772",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 8
+      },
+      "home_team_points": 100,
+      "visitor_team_points": 96,
+      "maximum_points_player": 30,
+      "lead_changes": 4
+    },
+    "game_rating_total": 8
   },
   {
     "game": {
@@ -343,12 +189,53 @@
         "conference": "West",
         "conference_position": 5
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 8
+      },
       "home_team_points": 131,
       "visitor_team_points": 119,
-      "game_punctuation": 2,
-      "maximum_points_player": 32
+      "maximum_points_player": 32,
+      "lead_changes": 11
     },
-    "game_punctuation": 2
+    "game_rating_total": 8
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400782",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 10
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 2,
+        "change_lead": 0,
+        "total": 8
+      },
+      "home_team_points": 111,
+      "visitor_team_points": 107,
+      "maximum_points_player": 42,
+      "lead_changes": 2
+    },
+    "game_rating_total": 8
   },
   {
     "game": {
@@ -370,12 +257,223 @@
         "conference": "East",
         "conference_position": 14
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 6
+      },
       "home_team_points": 102,
       "visitor_team_points": 86,
-      "game_punctuation": 0,
-      "maximum_points_player": 24
+      "maximum_points_player": 24,
+      "lead_changes": 9
     },
-    "game_punctuation": 0
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400777",
+      "home_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612758,
+        "team_abbreviation": "SAC",
+        "team_city_name": "Sacramento",
+        "team_name": "Kings",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
+      "home_team_points": 111,
+      "visitor_team_points": 119,
+      "maximum_points_player": 33,
+      "lead_changes": 6
+    },
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400780",
+      "home_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 3
+      },
+      "visitor_team": {
+        "team_id": 1610612757,
+        "team_abbreviation": "POR",
+        "team_city_name": "Portland",
+        "team_name": "Trail Blazers",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 4,
+        "change_lead": 0,
+        "total": 6
+      },
+      "home_team_points": 132,
+      "visitor_team_points": 121,
+      "maximum_points_player": 55,
+      "lead_changes": 1
+    },
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400783",
+      "home_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
+      "home_team_points": 128,
+      "visitor_team_points": 114,
+      "maximum_points_player": 25,
+      "lead_changes": 4
+    },
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400769",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 103,
+      "maximum_points_player": 32,
+      "lead_changes": 1
+    },
+    "game_rating_total": 2
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400774",
+      "home_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 108,
+      "visitor_team_points": 131,
+      "maximum_points_player": 27,
+      "lead_changes": 2
+    },
+    "game_rating_total": 2
+  },
+  {
+    "game": {
+      "date": "2025-02-12T00:00:00",
+      "game_id": "0022400778",
+      "home_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "visitor_team": {
+        "team_id": 1610612748,
+        "team_abbreviation": "MIA",
+        "team_city_name": "Miami",
+        "team_name": "Heat",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 101,
+      "maximum_points_player": 32,
+      "lead_changes": 0
+    },
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -397,11 +495,18 @@
         "conference": "East",
         "conference_position": 6
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 110,
       "visitor_team_points": 128,
-      "game_punctuation": 0,
-      "maximum_points_player": 29
+      "maximum_points_player": 29,
+      "lead_changes": 2
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   }
 ]

@@ -19,11 +19,18 @@
         "conference": "West",
         "conference_position": 12
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 10
+      },
       "home_team_points": 115,
       "visitor_team_points": 113,
-      "game_punctuation": 8,
-      "maximum_points_player": 37
+      "maximum_points_player": 37,
+      "lead_changes": 5
     },
-    "game_punctuation": 8
+    "game_rating_total": 10
   }
 ]

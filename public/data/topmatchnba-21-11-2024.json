@@ -1,0 +1,138 @@
+[
+  {
+    "game": {
+      "date": "2024-11-21T00:00:00",
+      "game_id": "0022400263",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "game_rating": {
+        "standings": 6,
+        "score_difference": 10,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 24
+      },
+      "home_team_points": 118,
+      "visitor_team_points": 119,
+      "maximum_points_player": 39,
+      "lead_changes": 16
+    },
+    "game_rating_total": 24
+  },
+  {
+    "game": {
+      "date": "2024-11-21T00:00:00",
+      "game_id": "0022400261",
+      "home_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "visitor_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 10
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 14
+      },
+      "home_team_points": 110,
+      "visitor_team_points": 105,
+      "maximum_points_player": 31,
+      "lead_changes": 14
+    },
+    "game_rating_total": 14
+  },
+  {
+    "game": {
+      "date": "2024-11-21T00:00:00",
+      "game_id": "0022400260",
+      "home_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612765,
+        "team_abbreviation": "DET",
+        "team_city_name": "Detroit",
+        "team_name": "Pistons",
+        "conference": "East",
+        "conference_position": 7
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 8
+      },
+      "home_team_points": 123,
+      "visitor_team_points": 121,
+      "maximum_points_player": 38,
+      "lead_changes": 1
+    },
+    "game_rating_total": 8
+  },
+  {
+    "game": {
+      "date": "2024-11-21T00:00:00",
+      "game_id": "0022400262",
+      "home_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "visitor_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 15
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
+      "home_team_points": 126,
+      "visitor_team_points": 118,
+      "maximum_points_player": 27,
+      "lead_changes": 3
+    },
+    "game_rating_total": 4
+  }
+]

@@ -19,12 +19,19 @@
         "conference": "East",
         "conference_position": 3
       },
+      "game_rating": {
+        "standings": 6,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 12
+      },
       "home_team_points": 91,
       "visitor_team_points": 100,
-      "game_punctuation": 8,
-      "maximum_points_player": 32
+      "maximum_points_player": 32,
+      "lead_changes": 4
     },
-    "game_punctuation": 8
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -46,12 +53,19 @@
         "conference": "West",
         "conference_position": 3
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 2,
+        "change_lead": 0,
+        "total": 6
+      },
       "home_team_points": 133,
       "visitor_team_points": 143,
-      "game_punctuation": 8,
-      "maximum_points_player": 45
+      "maximum_points_player": 45,
+      "lead_changes": 2
     },
-    "game_punctuation": 8
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -73,39 +87,19 @@
         "conference": "West",
         "conference_position": 2
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 6
+      },
       "home_team_points": 116,
       "visitor_team_points": 110,
-      "game_punctuation": 6,
-      "maximum_points_player": 40
+      "maximum_points_player": 40,
+      "lead_changes": 0
     },
-    "game_punctuation": 6
-  },
-  {
-    "game": {
-      "date": "2024-12-15T00:00:00",
-      "game_id": "0022401217",
-      "home_team": {
-        "team_id": 1610612764,
-        "team_abbreviation": "WAS",
-        "team_city_name": "Washington",
-        "team_name": "Wizards",
-        "conference": "East",
-        "conference_position": 15
-      },
-      "visitor_team": {
-        "team_id": 1610612738,
-        "team_abbreviation": "BOS",
-        "team_city_name": "Boston",
-        "team_name": "Celtics",
-        "conference": "East",
-        "conference_position": 2
-      },
-      "home_team_points": 98,
-      "visitor_team_points": 112,
-      "game_punctuation": 4,
-      "maximum_points_player": 28
-    },
-    "game_punctuation": 4
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -127,39 +121,53 @@
         "conference": "West",
         "conference_position": 13
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
       "home_team_points": 116,
       "visitor_team_points": 109,
-      "game_punctuation": 4,
-      "maximum_points_player": 28
+      "maximum_points_player": 28,
+      "lead_changes": 1
     },
-    "game_punctuation": 4
+    "game_rating_total": 4
   },
   {
     "game": {
       "date": "2024-12-15T00:00:00",
-      "game_id": "0022401218",
+      "game_id": "0022401217",
       "home_team": {
-        "team_id": 1610612759,
-        "team_abbreviation": "SAS",
-        "team_city_name": "San Antonio",
-        "team_name": "Spurs",
-        "conference": "West",
-        "conference_position": 12
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
       },
       "visitor_team": {
-        "team_id": 1610612750,
-        "team_abbreviation": "MIN",
-        "team_city_name": "Minnesota",
-        "team_name": "Timberwolves",
-        "conference": "West",
-        "conference_position": 7
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
       },
-      "home_team_points": 92,
-      "visitor_team_points": 106,
-      "game_punctuation": 2,
-      "maximum_points_player": 26
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 98,
+      "visitor_team_points": 112,
+      "maximum_points_player": 28,
+      "lead_changes": 0
     },
-    "game_punctuation": 2
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -181,11 +189,52 @@
         "conference": "West",
         "conference_position": 15
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 119,
       "visitor_team_points": 104,
-      "game_punctuation": 0,
-      "maximum_points_player": 22
+      "maximum_points_player": 22,
+      "lead_changes": 0
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
+  },
+  {
+    "game": {
+      "date": "2024-12-15T00:00:00",
+      "game_id": "0022401218",
+      "home_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "visitor_team": {
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 7
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 92,
+      "visitor_team_points": 106,
+      "maximum_points_player": 26,
+      "lead_changes": 3
+    },
+    "game_rating_total": 0
   }
 ]

@@ -2,33 +2,6 @@
   {
     "game": {
       "date": "2025-02-16T00:00:00",
-      "game_id": "0032400011",
-      "home_team": {
-        "team_id": 1610616851,
-        "team_abbreviation": "CHK",
-        "team_city_name": "",
-        "team_name": "Global Stars",
-        "conference": "",
-        "conference_position": 0
-      },
-      "visitor_team": {
-        "team_id": 1610616853,
-        "team_abbreviation": "KEN",
-        "team_city_name": "",
-        "team_name": "Young Stars",
-        "conference": "",
-        "conference_position": 0
-      },
-      "home_team_points": 41,
-      "visitor_team_points": 32,
-      "game_punctuation": 10,
-      "maximum_points_player": 12
-    },
-    "game_punctuation": 10
-  },
-  {
-    "game": {
-      "date": "2025-02-16T00:00:00",
       "game_id": "0032400021",
       "home_team": {
         "team_id": 1610616852,
@@ -46,12 +19,53 @@
         "conference": "",
         "conference_position": 0
       },
+      "game_rating": {
+        "standings": 8,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 18
+      },
       "home_team_points": 42,
       "visitor_team_points": 35,
-      "game_punctuation": 10,
-      "maximum_points_player": 9
+      "maximum_points_player": 9,
+      "lead_changes": 7
     },
-    "game_punctuation": 10
+    "game_rating_total": 18
+  },
+  {
+    "game": {
+      "date": "2025-02-16T00:00:00",
+      "game_id": "0032400011",
+      "home_team": {
+        "team_id": 1610616851,
+        "team_abbreviation": "CHK",
+        "team_city_name": "",
+        "team_name": "Global Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "visitor_team": {
+        "team_id": 1610616853,
+        "team_abbreviation": "KEN",
+        "team_city_name": "",
+        "team_name": "Young Stars",
+        "conference": "",
+        "conference_position": 0
+      },
+      "game_rating": {
+        "standings": 8,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 14
+      },
+      "home_team_points": 41,
+      "visitor_team_points": 32,
+      "maximum_points_player": 12,
+      "lead_changes": 4
+    },
+    "game_rating_total": 14
   },
   {
     "game": {
@@ -73,11 +87,18 @@
         "conference": "",
         "conference_position": 0
       },
+      "game_rating": {
+        "standings": 8,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 8
+      },
       "home_team_points": 25,
       "visitor_team_points": 41,
-      "game_punctuation": 6,
-      "maximum_points_player": 15
+      "maximum_points_player": 15,
+      "lead_changes": 0
     },
-    "game_punctuation": 6
+    "game_rating_total": 8
   }
 ]

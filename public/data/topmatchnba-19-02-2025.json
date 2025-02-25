@@ -19,11 +19,18 @@
         "conference": "East",
         "conference_position": 14
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 10
+      },
       "home_team_points": 97,
       "visitor_team_points": 100,
-      "game_punctuation": 8,
-      "maximum_points_player": 29
+      "maximum_points_player": 29,
+      "lead_changes": 6
     },
-    "game_punctuation": 8
+    "game_rating_total": 10
   }
 ]
