@@ -19,39 +19,19 @@
         "conference": "East",
         "conference_position": 4
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 8,
+        "maximum_points_player": 2,
+        "change_lead": 6,
+        "total": 20
+      },
       "home_team_points": 106,
       "visitor_team_points": 109,
-      "game_punctuation": 14,
-      "maximum_points_player": 41
+      "maximum_points_player": 41,
+      "lead_changes": 8
     },
-    "game_punctuation": 14
-  },
-  {
-    "game": {
-      "date": "2025-01-10T00:00:00",
-      "game_id": "0022400529",
-      "home_team": {
-        "team_id": 1610612752,
-        "team_abbreviation": "NYK",
-        "team_city_name": "New York",
-        "team_name": "Knicks",
-        "conference": "East",
-        "conference_position": 3
-      },
-      "visitor_team": {
-        "team_id": 1610612760,
-        "team_abbreviation": "OKC",
-        "team_city_name": "Oklahoma City",
-        "team_name": "Thunder",
-        "conference": "West",
-        "conference_position": 1
-      },
-      "home_team_points": 101,
-      "visitor_team_points": 126,
-      "game_punctuation": 6,
-      "maximum_points_player": 39
-    },
-    "game_punctuation": 6
+    "game_rating_total": 20
   },
   {
     "game": {
@@ -73,39 +53,53 @@
         "conference": "West",
         "conference_position": 15
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
       "home_team_points": 115,
       "visitor_team_points": 123,
-      "game_punctuation": 4,
-      "maximum_points_player": 38
+      "maximum_points_player": 38,
+      "lead_changes": 6
     },
-    "game_punctuation": 4
+    "game_rating_total": 6
   },
   {
     "game": {
       "date": "2025-01-10T00:00:00",
-      "game_id": "0022400525",
+      "game_id": "0022400529",
       "home_team": {
-        "team_id": 1610612754,
-        "team_abbreviation": "IND",
-        "team_city_name": "Indiana",
-        "team_name": "Pacers",
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
         "conference": "East",
-        "conference_position": 6
+        "conference_position": 3
       },
       "visitor_team": {
-        "team_id": 1610612744,
-        "team_abbreviation": "GSW",
-        "team_city_name": "Golden State",
-        "team_name": "Warriors",
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
         "conference": "West",
-        "conference_position": 9
+        "conference_position": 1
       },
-      "home_team_points": 108,
-      "visitor_team_points": 96,
-      "game_punctuation": 2,
-      "maximum_points_player": 25
+      "game_rating": {
+        "standings": 6,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 6
+      },
+      "home_team_points": 101,
+      "visitor_team_points": 126,
+      "maximum_points_player": 39,
+      "lead_changes": 0
     },
-    "game_punctuation": 2
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -127,12 +121,53 @@
         "conference": "West",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 4
+      },
       "home_team_points": 97,
       "visitor_team_points": 114,
-      "game_punctuation": 2,
-      "maximum_points_player": 28
+      "maximum_points_player": 28,
+      "lead_changes": 4
     },
-    "game_punctuation": 2
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-10T00:00:00",
+      "game_id": "0022400525",
+      "home_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 108,
+      "visitor_team_points": 96,
+      "maximum_points_player": 25,
+      "lead_changes": 3
+    },
+    "game_rating_total": 0
   },
   {
     "game": {
@@ -154,12 +189,19 @@
         "conference": "East",
         "conference_position": 15
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 138,
       "visitor_team_points": 105,
-      "game_punctuation": 0,
-      "maximum_points_player": 33
+      "maximum_points_player": 33,
+      "lead_changes": 2
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   },
   {
     "game": {
@@ -181,11 +223,18 @@
         "conference": "East",
         "conference_position": 12
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 124,
       "visitor_team_points": 105,
-      "game_punctuation": 0,
-      "maximum_points_player": 35
+      "maximum_points_player": 35,
+      "lead_changes": 2
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   }
 ]

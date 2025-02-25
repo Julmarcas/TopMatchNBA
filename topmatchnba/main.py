@@ -38,16 +38,17 @@ def generate_json_for_games(games: list[Game], output_file: str = "games.json") 
         json.dump(data, file, indent=2)
 
 
-def main() -> None:
+def main(game_date=None) -> None:
     """
     Main function to fetch NBA game data, update game ratings, sort games by rating,
     print a summary, and generate a JSON output file.
     """
-    today = datetime.now()
-    yesterday = today - timedelta(days=1)
+    if not game_date:
+        today = datetime.now()
+        game_date = today - timedelta(days=1)
 
-    # Fetch games for yesterday
-    games: dict[str, Game] = fetch_nba_game_data(yesterday)
+    # Fetch games for game_date (yesterday as default)
+    games: dict[str, Game] = fetch_nba_game_data(game_date)
 
     # Update each game with lead changes and recalculate game rating.
     for game in games.values():
@@ -67,7 +68,7 @@ def main() -> None:
             f"Points {game.game_rating.total}"
         )
 
-    output_file = f"data/topmatchnba-{yesterday.strftime('%d-%m-%Y')}.json"
+    output_file = f"data/topmatchnba-{game_date.strftime('%d-%m-%Y')}.json"
     generate_json_for_games(sorted_games, output_file)
 
 

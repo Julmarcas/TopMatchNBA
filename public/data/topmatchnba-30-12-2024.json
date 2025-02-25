@@ -19,12 +19,19 @@
         "conference": "West",
         "conference_position": 5
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 14
+      },
       "home_team_points": 113,
       "visitor_team_points": 116,
-      "game_punctuation": 8,
-      "maximum_points_player": 35
+      "maximum_points_player": 35,
+      "lead_changes": 8
     },
-    "game_punctuation": 8
+    "game_rating_total": 14
   },
   {
     "game": {
@@ -46,93 +53,19 @@
         "conference": "East",
         "conference_position": 9
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
       "home_team_points": 108,
       "visitor_team_points": 115,
-      "game_punctuation": 4,
-      "maximum_points_player": 31
+      "maximum_points_player": 31,
+      "lead_changes": 4
     },
-    "game_punctuation": 4
-  },
-  {
-    "game": {
-      "date": "2024-12-30T00:00:00",
-      "game_id": "0022400443",
-      "home_team": {
-        "team_id": 1610612764,
-        "team_abbreviation": "WAS",
-        "team_city_name": "Washington",
-        "team_name": "Wizards",
-        "conference": "East",
-        "conference_position": 15
-      },
-      "visitor_team": {
-        "team_id": 1610612752,
-        "team_abbreviation": "NYK",
-        "team_city_name": "New York",
-        "team_name": "Knicks",
-        "conference": "East",
-        "conference_position": 3
-      },
-      "home_team_points": 106,
-      "visitor_team_points": 126,
-      "game_punctuation": 2,
-      "maximum_points_player": 32
-    },
-    "game_punctuation": 2
-  },
-  {
-    "game": {
-      "date": "2024-12-30T00:00:00",
-      "game_id": "0022400445",
-      "home_team": {
-        "team_id": 1610612762,
-        "team_abbreviation": "UTA",
-        "team_city_name": "Utah",
-        "team_name": "Jazz",
-        "conference": "West",
-        "conference_position": 14
-      },
-      "visitor_team": {
-        "team_id": 1610612743,
-        "team_abbreviation": "DEN",
-        "team_city_name": "Denver",
-        "team_name": "Nuggets",
-        "conference": "West",
-        "conference_position": 6
-      },
-      "home_team_points": 121,
-      "visitor_team_points": 132,
-      "game_punctuation": 2,
-      "maximum_points_player": 36
-    },
-    "game_punctuation": 2
-  },
-  {
-    "game": {
-      "date": "2024-12-30T00:00:00",
-      "game_id": "0022400446",
-      "home_team": {
-        "team_id": 1610612744,
-        "team_abbreviation": "GSW",
-        "team_city_name": "Golden State",
-        "team_name": "Warriors",
-        "conference": "West",
-        "conference_position": 9
-      },
-      "visitor_team": {
-        "team_id": 1610612739,
-        "team_abbreviation": "CLE",
-        "team_city_name": "Cleveland",
-        "team_name": "Cavaliers",
-        "conference": "East",
-        "conference_position": 1
-      },
-      "home_team_points": 95,
-      "visitor_team_points": 113,
-      "game_punctuation": 2,
-      "maximum_points_player": 25
-    },
-    "game_punctuation": 2
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -154,12 +87,121 @@
         "conference": "West",
         "conference_position": 4
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 6
+      },
       "home_team_points": 110,
       "visitor_team_points": 100,
-      "game_punctuation": 2,
-      "maximum_points_player": 33
+      "maximum_points_player": 33,
+      "lead_changes": 7
     },
-    "game_punctuation": 2
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2024-12-30T00:00:00",
+      "game_id": "0022400443",
+      "home_team": {
+        "team_id": 1610612764,
+        "team_abbreviation": "WAS",
+        "team_city_name": "Washington",
+        "team_name": "Wizards",
+        "conference": "East",
+        "conference_position": 15
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 4
+      },
+      "home_team_points": 106,
+      "visitor_team_points": 126,
+      "maximum_points_player": 32,
+      "lead_changes": 4
+    },
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2024-12-30T00:00:00",
+      "game_id": "0022400446",
+      "home_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
+        "conference": "East",
+        "conference_position": 1
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 4
+      },
+      "home_team_points": 95,
+      "visitor_team_points": 113,
+      "maximum_points_player": 25,
+      "lead_changes": 5
+    },
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2024-12-30T00:00:00",
+      "game_id": "0022400445",
+      "home_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 2
+      },
+      "home_team_points": 121,
+      "visitor_team_points": 132,
+      "maximum_points_player": 36,
+      "lead_changes": 5
+    },
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -181,11 +223,18 @@
         "conference": "East",
         "conference_position": 11
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 103,
       "visitor_team_points": 125,
-      "game_punctuation": 0,
-      "maximum_points_player": 37
+      "maximum_points_player": 37,
+      "lead_changes": 2
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   }
 ]

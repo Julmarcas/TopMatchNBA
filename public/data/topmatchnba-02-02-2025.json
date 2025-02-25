@@ -2,29 +2,36 @@
   {
     "game": {
       "date": "2025-02-02T00:00:00",
-      "game_id": "0022400698",
+      "game_id": "0022400697",
       "home_team": {
-        "team_id": 1610612755,
-        "team_abbreviation": "PHI",
-        "team_city_name": "Philadelphia",
-        "team_name": "76ers",
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
         "conference": "East",
-        "conference_position": 11
+        "conference_position": 13
       },
       "visitor_team": {
-        "team_id": 1610612738,
-        "team_abbreviation": "BOS",
-        "team_city_name": "Boston",
-        "team_name": "Celtics",
-        "conference": "East",
-        "conference_position": 2
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 6
       },
-      "home_team_points": 110,
-      "visitor_team_points": 118,
-      "game_punctuation": 6,
-      "maximum_points_player": 35
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 12
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 108,
+      "maximum_points_player": 25,
+      "lead_changes": 15
     },
-    "game_punctuation": 6
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -46,12 +53,19 @@
         "conference": "West",
         "conference_position": 2
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 12
+      },
       "home_team_points": 119,
       "visitor_team_points": 132,
-      "game_punctuation": 6,
-      "maximum_points_player": 37
+      "maximum_points_player": 37,
+      "lead_changes": 12
     },
-    "game_punctuation": 6
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -73,39 +87,53 @@
         "conference": "East",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
       "home_team_points": 127,
       "visitor_team_points": 119,
-      "game_punctuation": 4,
-      "maximum_points_player": 22
+      "maximum_points_player": 22,
+      "lead_changes": 6
     },
-    "game_punctuation": 4
+    "game_rating_total": 6
   },
   {
     "game": {
       "date": "2025-02-02T00:00:00",
-      "game_id": "0022400697",
+      "game_id": "0022400698",
       "home_team": {
-        "team_id": 1610612761,
-        "team_abbreviation": "TOR",
-        "team_city_name": "Toronto",
-        "team_name": "Raptors",
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
         "conference": "East",
-        "conference_position": 13
+        "conference_position": 11
       },
       "visitor_team": {
-        "team_id": 1610612746,
-        "team_abbreviation": "LAC",
-        "team_city_name": "LA",
-        "team_name": "Clippers",
-        "conference": "West",
-        "conference_position": 6
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
       },
-      "home_team_points": 115,
-      "visitor_team_points": 108,
-      "game_punctuation": 4,
-      "maximum_points_player": 25
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 6
+      },
+      "home_team_points": 110,
+      "visitor_team_points": 118,
+      "maximum_points_player": 35,
+      "lead_changes": 3
     },
-    "game_punctuation": 4
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -127,11 +155,18 @@
         "conference": "West",
         "conference_position": 9
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
       "home_team_points": 144,
       "visitor_team_points": 101,
-      "game_punctuation": 2,
-      "maximum_points_player": 27
+      "maximum_points_player": 27,
+      "lead_changes": 0
     },
-    "game_punctuation": 2
+    "game_rating_total": 2
   }
 ]

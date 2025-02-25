@@ -2,33 +2,6 @@
   {
     "game": {
       "date": "2025-02-13T00:00:00",
-      "game_id": "0022401004",
-      "home_team": {
-        "team_id": 1610612762,
-        "team_abbreviation": "UTA",
-        "team_city_name": "Utah",
-        "team_name": "Jazz",
-        "conference": "West",
-        "conference_position": 14
-      },
-      "visitor_team": {
-        "team_id": 1610612746,
-        "team_abbreviation": "LAC",
-        "team_city_name": "LA",
-        "team_name": "Clippers",
-        "conference": "West",
-        "conference_position": 6
-      },
-      "home_team_points": 116,
-      "visitor_team_points": 120,
-      "game_punctuation": 10,
-      "maximum_points_player": 41
-    },
-    "game_punctuation": 10
-  },
-  {
-    "game": {
-      "date": "2025-02-13T00:00:00",
       "game_id": "0022400785",
       "home_team": {
         "team_id": 1610612740,
@@ -46,39 +19,19 @@
         "conference": "West",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 2,
+        "change_lead": 10,
+        "total": 16
+      },
       "home_team_points": 140,
       "visitor_team_points": 133,
-      "game_punctuation": 6,
-      "maximum_points_player": 43
+      "maximum_points_player": 43,
+      "lead_changes": 17
     },
-    "game_punctuation": 6
-  },
-  {
-    "game": {
-      "date": "2025-02-13T00:00:00",
-      "game_id": "0022400784",
-      "home_team": {
-        "team_id": 1610612745,
-        "team_abbreviation": "HOU",
-        "team_city_name": "Houston",
-        "team_name": "Rockets",
-        "conference": "West",
-        "conference_position": 4
-      },
-      "visitor_team": {
-        "team_id": 1610612744,
-        "team_abbreviation": "GSW",
-        "team_city_name": "Golden State",
-        "team_name": "Warriors",
-        "conference": "West",
-        "conference_position": 9
-      },
-      "home_team_points": 98,
-      "visitor_team_points": 105,
-      "game_punctuation": 4,
-      "maximum_points_player": 27
-    },
-    "game_punctuation": 4
+    "game_rating_total": 16
   },
   {
     "game": {
@@ -100,12 +53,87 @@
         "conference": "East",
         "conference_position": 9
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 10,
+        "total": 16
+      },
       "home_team_points": 118,
       "visitor_team_points": 113,
-      "game_punctuation": 4,
-      "maximum_points_player": 40
+      "maximum_points_player": 40,
+      "lead_changes": 25
     },
-    "game_punctuation": 4
+    "game_rating_total": 16
+  },
+  {
+    "game": {
+      "date": "2025-02-13T00:00:00",
+      "game_id": "0022401004",
+      "home_team": {
+        "team_id": 1610612762,
+        "team_abbreviation": "UTA",
+        "team_city_name": "Utah",
+        "team_name": "Jazz",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612746,
+        "team_abbreviation": "LAC",
+        "team_city_name": "LA",
+        "team_name": "Clippers",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 2,
+        "change_lead": 2,
+        "total": 10
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 120,
+      "maximum_points_player": 41,
+      "lead_changes": 4
+    },
+    "game_rating_total": 10
+  },
+  {
+    "game": {
+      "date": "2025-02-13T00:00:00",
+      "game_id": "0022400784",
+      "home_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
+      "home_team_points": 98,
+      "visitor_team_points": 105,
+      "maximum_points_player": 27,
+      "lead_changes": 3
+    },
+    "game_rating_total": 4
   },
   {
     "game": {
@@ -127,11 +155,18 @@
         "conference": "West",
         "conference_position": 1
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
       "home_team_points": 116,
       "visitor_team_points": 101,
-      "game_punctuation": 4,
-      "maximum_points_player": 27
+      "maximum_points_player": 27,
+      "lead_changes": 0
     },
-    "game_punctuation": 4
+    "game_rating_total": 4
   }
 ]

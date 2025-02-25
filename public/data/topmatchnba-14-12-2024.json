@@ -19,12 +19,19 @@
         "conference": "East",
         "conference_position": 7
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 14
+      },
       "home_team_points": 110,
       "visitor_team_points": 102,
-      "game_punctuation": 8,
-      "maximum_points_player": 35
+      "maximum_points_player": 35,
+      "lead_changes": 8
     },
-    "game_punctuation": 8
+    "game_rating_total": 14
   },
   {
     "game": {
@@ -46,11 +53,18 @@
         "conference": "West",
         "conference_position": 3
       },
+      "game_rating": {
+        "standings": 6,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 8
+      },
       "home_team_points": 111,
       "visitor_team_points": 96,
-      "game_punctuation": 6,
-      "maximum_points_player": 32
+      "maximum_points_player": 32,
+      "lead_changes": 4
     },
-    "game_punctuation": 6
+    "game_rating_total": 8
   }
 ]

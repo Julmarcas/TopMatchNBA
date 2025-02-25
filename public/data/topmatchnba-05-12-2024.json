@@ -2,6 +2,40 @@
   {
     "game": {
       "date": "2024-12-05T00:00:00",
+      "game_id": "0022400329",
+      "home_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612758,
+        "team_abbreviation": "SAC",
+        "team_city_name": "Sacramento",
+        "team_name": "Kings",
+        "conference": "West",
+        "conference_position": 12
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 14
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 110,
+      "maximum_points_player": 26,
+      "lead_changes": 16
+    },
+    "game_rating_total": 14
+  },
+  {
+    "game": {
+      "date": "2024-12-05T00:00:00",
       "game_id": "0022400330",
       "home_team": {
         "team_id": 1610612740,
@@ -19,12 +53,19 @@
         "conference": "West",
         "conference_position": 7
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 14
+      },
       "home_team_points": 126,
       "visitor_team_points": 124,
-      "game_punctuation": 8,
-      "maximum_points_player": 29
+      "maximum_points_player": 29,
+      "lead_changes": 7
     },
-    "game_punctuation": 8
+    "game_rating_total": 14
   },
   {
     "game": {
@@ -46,12 +87,19 @@
         "conference": "West",
         "conference_position": 3
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 10
+      },
       "home_team_points": 99,
       "visitor_team_points": 93,
-      "game_punctuation": 8,
-      "maximum_points_player": 33
+      "maximum_points_player": 33,
+      "lead_changes": 4
     },
-    "game_punctuation": 8
+    "game_rating_total": 10
   },
   {
     "game": {
@@ -73,39 +121,19 @@
         "conference": "West",
         "conference_position": 8
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
       "home_team_points": 126,
       "visitor_team_points": 114,
-      "game_punctuation": 4,
-      "maximum_points_player": 28
+      "maximum_points_player": 28,
+      "lead_changes": 0
     },
-    "game_punctuation": 4
-  },
-  {
-    "game": {
-      "date": "2024-12-05T00:00:00",
-      "game_id": "0022400329",
-      "home_team": {
-        "team_id": 1610612763,
-        "team_abbreviation": "MEM",
-        "team_city_name": "Memphis",
-        "team_name": "Grizzlies",
-        "conference": "West",
-        "conference_position": 4
-      },
-      "visitor_team": {
-        "team_id": 1610612758,
-        "team_abbreviation": "SAC",
-        "team_city_name": "Sacramento",
-        "team_name": "Kings",
-        "conference": "West",
-        "conference_position": 12
-      },
-      "home_team_points": 115,
-      "visitor_team_points": 110,
-      "game_punctuation": 4,
-      "maximum_points_player": 26
-    },
-    "game_punctuation": 4
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -127,12 +155,19 @@
         "conference": "West",
         "conference_position": 2
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
       "home_team_points": 101,
       "visitor_team_points": 137,
-      "game_punctuation": 2,
-      "maximum_points_player": 25
+      "maximum_points_player": 25,
+      "lead_changes": 1
     },
-    "game_punctuation": 2
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -154,12 +189,19 @@
         "conference": "West",
         "conference_position": 1
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
       "home_team_points": 92,
       "visitor_team_points": 129,
-      "game_punctuation": 2,
-      "maximum_points_player": 30
+      "maximum_points_player": 30,
+      "lead_changes": 0
     },
-    "game_punctuation": 2
+    "game_rating_total": 2
   },
   {
     "game": {
@@ -181,12 +223,19 @@
         "conference": "East",
         "conference_position": 13
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 125,
       "visitor_team_points": 101,
-      "game_punctuation": 0,
-      "maximum_points_player": 27
+      "maximum_points_player": 27,
+      "lead_changes": 1
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   },
   {
     "game": {
@@ -208,11 +257,18 @@
         "conference": "East",
         "conference_position": 9
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
       "home_team_points": 124,
       "visitor_team_points": 139,
-      "game_punctuation": 0,
-      "maximum_points_player": 39
+      "maximum_points_player": 39,
+      "lead_changes": 0
     },
-    "game_punctuation": 0
+    "game_rating_total": 0
   }
 ]

@@ -2,33 +2,6 @@
   {
     "game": {
       "date": "2024-11-06T00:00:00",
-      "game_id": "0022400177",
-      "home_team": {
-        "team_id": 1610612743,
-        "team_abbreviation": "DEN",
-        "team_city_name": "Denver",
-        "team_name": "Nuggets",
-        "conference": "West",
-        "conference_position": 5
-      },
-      "visitor_team": {
-        "team_id": 1610612760,
-        "team_abbreviation": "OKC",
-        "team_city_name": "Oklahoma City",
-        "team_name": "Thunder",
-        "conference": "West",
-        "conference_position": 2
-      },
-      "home_team_points": 124,
-      "visitor_team_points": 122,
-      "game_punctuation": 12,
-      "maximum_points_player": 29
-    },
-    "game_punctuation": 12
-  },
-  {
-    "game": {
-      "date": "2024-11-06T00:00:00",
       "game_id": "0022400178",
       "home_team": {
         "team_id": 1610612756,
@@ -46,39 +19,19 @@
         "conference": "East",
         "conference_position": 6
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 20
+      },
       "home_team_points": 115,
       "visitor_team_points": 112,
-      "game_punctuation": 12,
-      "maximum_points_player": 32
+      "maximum_points_player": 32,
+      "lead_changes": 15
     },
-    "game_punctuation": 12
-  },
-  {
-    "game": {
-      "date": "2024-11-06T00:00:00",
-      "game_id": "0022400172",
-      "home_team": {
-        "team_id": 1610612738,
-        "team_abbreviation": "BOS",
-        "team_city_name": "Boston",
-        "team_name": "Celtics",
-        "conference": "East",
-        "conference_position": 2
-      },
-      "visitor_team": {
-        "team_id": 1610612744,
-        "team_abbreviation": "GSW",
-        "team_city_name": "Golden State",
-        "team_name": "Warriors",
-        "conference": "West",
-        "conference_position": 1
-      },
-      "home_team_points": 112,
-      "visitor_team_points": 118,
-      "game_punctuation": 10,
-      "maximum_points_player": 32
-    },
-    "game_punctuation": 10
+    "game_rating_total": 20
   },
   {
     "game": {
@@ -100,12 +53,87 @@
         "conference": "East",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 10,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 18
+      },
       "home_team_points": 108,
       "visitor_team_points": 107,
-      "game_punctuation": 8,
-      "maximum_points_player": 27
+      "maximum_points_player": 27,
+      "lead_changes": 13
     },
-    "game_punctuation": 8
+    "game_rating_total": 18
+  },
+  {
+    "game": {
+      "date": "2024-11-06T00:00:00",
+      "game_id": "0022400172",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 1
+      },
+      "game_rating": {
+        "standings": 8,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 18
+      },
+      "home_team_points": 112,
+      "visitor_team_points": 118,
+      "maximum_points_player": 32,
+      "lead_changes": 7
+    },
+    "game_rating_total": 18
+  },
+  {
+    "game": {
+      "date": "2024-11-06T00:00:00",
+      "game_id": "0022400177",
+      "home_team": {
+        "team_id": 1610612743,
+        "team_abbreviation": "DEN",
+        "team_city_name": "Denver",
+        "team_name": "Nuggets",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612760,
+        "team_abbreviation": "OKC",
+        "team_city_name": "Oklahoma City",
+        "team_name": "Thunder",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 18
+      },
+      "home_team_points": 124,
+      "visitor_team_points": 122,
+      "maximum_points_player": 29,
+      "lead_changes": 7
+    },
+    "game_rating_total": 18
   },
   {
     "game": {
@@ -127,12 +155,19 @@
         "conference": "East",
         "conference_position": 7
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 12
+      },
       "home_team_points": 121,
       "visitor_team_points": 116,
-      "game_punctuation": 8,
-      "maximum_points_player": 34
+      "maximum_points_player": 34,
+      "lead_changes": 5
     },
-    "game_punctuation": 8
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -154,12 +189,19 @@
         "conference": "East",
         "conference_position": 1
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 12
+      },
       "home_team_points": 122,
       "visitor_team_points": 131,
-      "game_punctuation": 6,
-      "maximum_points_player": 29
+      "maximum_points_player": 29,
+      "lead_changes": 8
     },
-    "game_punctuation": 6
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -181,12 +223,19 @@
         "conference": "East",
         "conference_position": 11
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
       "home_team_points": 118,
       "visitor_team_points": 111,
-      "game_punctuation": 4,
-      "maximum_points_player": 28
+      "maximum_points_player": 28,
+      "lead_changes": 5
     },
-    "game_punctuation": 4
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -208,93 +257,19 @@
         "conference": "East",
         "conference_position": 15
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 6
+      },
       "home_team_points": 110,
       "visitor_team_points": 98,
-      "game_punctuation": 2,
-      "maximum_points_player": 26
+      "maximum_points_player": 26,
+      "lead_changes": 10
     },
-    "game_punctuation": 2
-  },
-  {
-    "game": {
-      "date": "2024-11-06T00:00:00",
-      "game_id": "0022400173",
-      "home_team": {
-        "team_id": 1610612745,
-        "team_abbreviation": "HOU",
-        "team_city_name": "Houston",
-        "team_name": "Rockets",
-        "conference": "West",
-        "conference_position": 6
-      },
-      "visitor_team": {
-        "team_id": 1610612759,
-        "team_abbreviation": "SAS",
-        "team_city_name": "San Antonio",
-        "team_name": "Spurs",
-        "conference": "West",
-        "conference_position": 13
-      },
-      "home_team_points": 127,
-      "visitor_team_points": 100,
-      "game_punctuation": 0,
-      "maximum_points_player": 21
-    },
-    "game_punctuation": 0
-  },
-  {
-    "game": {
-      "date": "2024-11-06T00:00:00",
-      "game_id": "0022400174",
-      "home_team": {
-        "team_id": 1610612763,
-        "team_abbreviation": "MEM",
-        "team_city_name": "Memphis",
-        "team_name": "Grizzlies",
-        "conference": "West",
-        "conference_position": 9
-      },
-      "visitor_team": {
-        "team_id": 1610612747,
-        "team_abbreviation": "LAL",
-        "team_city_name": "Los Angeles",
-        "team_name": "Lakers",
-        "conference": "West",
-        "conference_position": 10
-      },
-      "home_team_points": 131,
-      "visitor_team_points": 114,
-      "game_punctuation": 0,
-      "maximum_points_player": 39
-    },
-    "game_punctuation": 0
-  },
-  {
-    "game": {
-      "date": "2024-11-06T00:00:00",
-      "game_id": "0022400176",
-      "home_team": {
-        "team_id": 1610612742,
-        "team_abbreviation": "DAL",
-        "team_city_name": "Dallas",
-        "team_name": "Mavericks",
-        "conference": "West",
-        "conference_position": 4
-      },
-      "visitor_team": {
-        "team_id": 1610612741,
-        "team_abbreviation": "CHI",
-        "team_city_name": "Chicago",
-        "team_name": "Bulls",
-        "conference": "East",
-        "conference_position": 9
-      },
-      "home_team_points": 119,
-      "visitor_team_points": 99,
-      "game_punctuation": 0,
-      "maximum_points_player": 27
-    },
-    "game_punctuation": 0
+    "game_rating_total": 6
   },
   {
     "game": {
@@ -316,11 +291,120 @@
         "conference": "East",
         "conference_position": 13
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 6
+      },
       "home_team_points": 122,
       "visitor_team_points": 107,
-      "game_punctuation": 0,
-      "maximum_points_player": 27
+      "maximum_points_player": 27,
+      "lead_changes": 8
     },
-    "game_punctuation": 0
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2024-11-06T00:00:00",
+      "game_id": "0022400173",
+      "home_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612759,
+        "team_abbreviation": "SAS",
+        "team_city_name": "San Antonio",
+        "team_name": "Spurs",
+        "conference": "West",
+        "conference_position": 13
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 127,
+      "visitor_team_points": 100,
+      "maximum_points_player": 21,
+      "lead_changes": 0
+    },
+    "game_rating_total": 0
+  },
+  {
+    "game": {
+      "date": "2024-11-06T00:00:00",
+      "game_id": "0022400174",
+      "home_team": {
+        "team_id": 1610612763,
+        "team_abbreviation": "MEM",
+        "team_city_name": "Memphis",
+        "team_name": "Grizzlies",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 10
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 131,
+      "visitor_team_points": 114,
+      "maximum_points_player": 39,
+      "lead_changes": 0
+    },
+    "game_rating_total": 0
+  },
+  {
+    "game": {
+      "date": "2024-11-06T00:00:00",
+      "game_id": "0022400176",
+      "home_team": {
+        "team_id": 1610612742,
+        "team_abbreviation": "DAL",
+        "team_city_name": "Dallas",
+        "team_name": "Mavericks",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 119,
+      "visitor_team_points": 99,
+      "maximum_points_player": 27,
+      "lead_changes": 3
+    },
+    "game_rating_total": 0
   }
 ]

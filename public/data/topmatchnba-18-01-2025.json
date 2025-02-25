@@ -19,12 +19,19 @@
         "conference": "East",
         "conference_position": 6
       },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 18
+      },
       "home_team_points": 115,
       "visitor_team_points": 119,
-      "game_punctuation": 12,
-      "maximum_points_player": 28
+      "maximum_points_player": 28,
+      "lead_changes": 13
     },
-    "game_punctuation": 12
+    "game_rating_total": 18
   },
   {
     "game": {
@@ -46,39 +53,19 @@
         "conference": "West",
         "conference_position": 10
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 10,
+        "total": 16
+      },
       "home_team_points": 121,
       "visitor_team_points": 125,
-      "game_punctuation": 8,
-      "maximum_points_player": 36
+      "maximum_points_player": 36,
+      "lead_changes": 18
     },
-    "game_punctuation": 8
-  },
-  {
-    "game": {
-      "date": "2025-01-18T00:00:00",
-      "game_id": "0022400590",
-      "home_team": {
-        "team_id": 1610612750,
-        "team_abbreviation": "MIN",
-        "team_city_name": "Minnesota",
-        "team_name": "Timberwolves",
-        "conference": "West",
-        "conference_position": 8
-      },
-      "visitor_team": {
-        "team_id": 1610612739,
-        "team_abbreviation": "CLE",
-        "team_city_name": "Cleveland",
-        "team_name": "Cavaliers",
-        "conference": "East",
-        "conference_position": 1
-      },
-      "home_team_points": 117,
-      "visitor_team_points": 124,
-      "game_punctuation": 6,
-      "maximum_points_player": 36
-    },
-    "game_punctuation": 6
+    "game_rating_total": 16
   },
   {
     "game": {
@@ -100,39 +87,53 @@
         "conference": "East",
         "conference_position": 15
       },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 12
+      },
       "home_team_points": 122,
       "visitor_team_points": 114,
-      "game_punctuation": 4,
-      "maximum_points_player": 38
+      "maximum_points_player": 38,
+      "lead_changes": 12
     },
-    "game_punctuation": 4
+    "game_rating_total": 12
   },
   {
     "game": {
       "date": "2025-01-18T00:00:00",
-      "game_id": "0022400588",
+      "game_id": "0022400590",
       "home_team": {
-        "team_id": 1610612754,
-        "team_abbreviation": "IND",
-        "team_city_name": "Indiana",
-        "team_name": "Pacers",
-        "conference": "East",
-        "conference_position": 5
+        "team_id": 1610612750,
+        "team_abbreviation": "MIN",
+        "team_city_name": "Minnesota",
+        "team_name": "Timberwolves",
+        "conference": "West",
+        "conference_position": 8
       },
       "visitor_team": {
-        "team_id": 1610612755,
-        "team_abbreviation": "PHI",
-        "team_city_name": "Philadelphia",
-        "team_name": "76ers",
+        "team_id": 1610612739,
+        "team_abbreviation": "CLE",
+        "team_city_name": "Cleveland",
+        "team_name": "Cavaliers",
         "conference": "East",
-        "conference_position": 11
+        "conference_position": 1
       },
-      "home_team_points": 115,
-      "visitor_team_points": 102,
-      "game_punctuation": 2,
-      "maximum_points_player": 28
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 6,
+        "total": 12
+      },
+      "home_team_points": 117,
+      "visitor_team_points": 124,
+      "maximum_points_player": 36,
+      "lead_changes": 8
     },
-    "game_punctuation": 2
+    "game_rating_total": 12
   },
   {
     "game": {
@@ -154,11 +155,52 @@
         "conference": "West",
         "conference_position": 2
       },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 4
+      },
       "home_team_points": 103,
       "visitor_team_points": 125,
-      "game_punctuation": 2,
-      "maximum_points_player": 26
+      "maximum_points_player": 26,
+      "lead_changes": 4
     },
-    "game_punctuation": 2
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2025-01-18T00:00:00",
+      "game_id": "0022400588",
+      "home_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 2
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 102,
+      "maximum_points_player": 28,
+      "lead_changes": 6
+    },
+    "game_rating_total": 2
   }
 ]
