@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Any
 
+from fp.fp import FreeProxy
 from nba_api.stats.endpoints import playbyplayv2
 from nba_api.stats.endpoints import scoreboardv2
 
@@ -46,8 +47,11 @@ def fetch_nba_game_data(game_date: datetime) -> dict[str, Game]:
     :return: A dictionary where each key is a game ID and the value is the corresponding Game object.
     :raises RuntimeError: If fetching NBA data fails.
     """
+    proxy = FreeProxy(https=True).get()
     try:
-        scoreboard = scoreboardv2.ScoreboardV2(day_offset=0, game_date=game_date)
+        scoreboard = scoreboardv2.ScoreboardV2(
+            day_offset=0, game_date=game_date, proxy=proxy
+        )
     except Exception as e:
         raise RuntimeError(f"Failed to fetch NBA data: {e}") from e
 
@@ -80,7 +84,12 @@ def fetch_nba_play_by_play_data(game_id: str) -> int:
     :param game_id: The unique identifier for the game.
     :return: The total number of lead changes.
     """
-    pbp_data = playbyplayv2.PlayByPlayV2(game_id=game_id).get_dict()
+
+    proxy = FreeProxy(https=True).get()
+    try:
+        pbp_data = playbyplayv2.PlayByPlayV2(game_id=game_id, proxy=proxy).get_dict()
+    except Exception as e:
+        raise RuntimeError(f"Failed to fetch NBA data PlayByPlayV2: {e}") from e
 
     result_set = pbp_data.get("resultSets", [])[0]
     playbyplay_headers: list[str] = result_set.get("headers", [])
