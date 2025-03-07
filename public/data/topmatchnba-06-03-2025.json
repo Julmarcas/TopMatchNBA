@@ -1,0 +1,206 @@
+[
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400944",
+      "home_team": {
+        "team_id": 1610612753,
+        "team_abbreviation": "ORL",
+        "team_city_name": "Orlando",
+        "team_name": "Magic",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 10
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 2,
+        "change_lead": 8,
+        "total": 18
+      },
+      "home_team_points": 123,
+      "visitor_team_points": 125,
+      "maximum_points_player": 44,
+      "lead_changes": 15
+    },
+    "game_rating_total": 18
+  },
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400903",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "game_rating": {
+        "standings": 6,
+        "score_difference": 6,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 12
+      },
+      "home_team_points": 113,
+      "visitor_team_points": 109,
+      "maximum_points_player": 39,
+      "lead_changes": 1
+    },
+    "game_rating_total": 12
+  },
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400901",
+      "home_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "visitor_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 8
+      },
+      "home_team_points": 119,
+      "visitor_team_points": 121,
+      "maximum_points_player": 40,
+      "lead_changes": 3
+    },
+    "game_rating_total": 8
+  },
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400899",
+      "home_team": {
+        "team_id": 1610612737,
+        "team_abbreviation": "ATL",
+        "team_city_name": "Atlanta",
+        "team_name": "Hawks",
+        "conference": "East",
+        "conference_position": 8
+      },
+      "visitor_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 6
+      },
+      "home_team_points": 124,
+      "visitor_team_points": 118,
+      "maximum_points_player": 35,
+      "lead_changes": 6
+    },
+    "game_rating_total": 6
+  },
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400900",
+      "home_team": {
+        "team_id": 1610612738,
+        "team_abbreviation": "BOS",
+        "team_city_name": "Boston",
+        "team_name": "Celtics",
+        "conference": "East",
+        "conference_position": 2
+      },
+      "visitor_team": {
+        "team_id": 1610612755,
+        "team_abbreviation": "PHI",
+        "team_city_name": "Philadelphia",
+        "team_name": "76ers",
+        "conference": "East",
+        "conference_position": 12
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 123,
+      "visitor_team_points": 105,
+      "maximum_points_player": 35,
+      "lead_changes": 0
+    },
+    "game_rating_total": 2
+  },
+  {
+    "game": {
+      "date": "2025-03-06T00:00:00",
+      "game_id": "0022400902",
+      "home_team": {
+        "team_id": 1610612740,
+        "team_abbreviation": "NOP",
+        "team_city_name": "New Orleans",
+        "team_name": "Pelicans",
+        "conference": "West",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612745,
+        "team_abbreviation": "HOU",
+        "team_city_name": "Houston",
+        "team_name": "Rockets",
+        "conference": "West",
+        "conference_position": 5
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 0
+      },
+      "home_team_points": 97,
+      "visitor_team_points": 109,
+      "maximum_points_player": 26,
+      "lead_changes": 1
+    },
+    "game_rating_total": 0
+  }
+]
