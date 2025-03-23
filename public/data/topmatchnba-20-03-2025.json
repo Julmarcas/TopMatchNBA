@@ -1,0 +1,172 @@
+[
+  {
+    "game": {
+      "date": "2025-03-20T00:00:00",
+      "game_id": "0022401005",
+      "home_team": {
+        "team_id": 1610612744,
+        "team_abbreviation": "GSW",
+        "team_city_name": "Golden State",
+        "team_name": "Warriors",
+        "conference": "West",
+        "conference_position": 6
+      },
+      "visitor_team": {
+        "team_id": 1610612761,
+        "team_abbreviation": "TOR",
+        "team_city_name": "Toronto",
+        "team_name": "Raptors",
+        "conference": "East",
+        "conference_position": 11
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 8,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 16
+      },
+      "home_team_points": 117,
+      "visitor_team_points": 114,
+      "maximum_points_player": 29,
+      "lead_changes": 13
+    },
+    "game_rating_total": 16
+  },
+  {
+    "game": {
+      "date": "2025-03-20T00:00:00",
+      "game_id": "0022401011",
+      "home_team": {
+        "team_id": 1610612754,
+        "team_abbreviation": "IND",
+        "team_city_name": "Indiana",
+        "team_name": "Pacers",
+        "conference": "East",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612751,
+        "team_abbreviation": "BKN",
+        "team_city_name": "Brooklyn",
+        "team_name": "Nets",
+        "conference": "East",
+        "conference_position": 13
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 4,
+        "maximum_points_player": 0,
+        "change_lead": 8,
+        "total": 12
+      },
+      "home_team_points": 105,
+      "visitor_team_points": 99,
+      "maximum_points_player": 28,
+      "lead_changes": 11
+    },
+    "game_rating_total": 12
+  },
+  {
+    "game": {
+      "date": "2025-03-20T00:00:00",
+      "game_id": "0022400996",
+      "home_team": {
+        "team_id": 1610612747,
+        "team_abbreviation": "LAL",
+        "team_city_name": "Los Angeles",
+        "team_name": "Lakers",
+        "conference": "West",
+        "conference_position": 4
+      },
+      "visitor_team": {
+        "team_id": 1610612749,
+        "team_abbreviation": "MIL",
+        "team_city_name": "Milwaukee",
+        "team_name": "Bucks",
+        "conference": "East",
+        "conference_position": 5
+      },
+      "game_rating": {
+        "standings": 4,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 4
+      },
+      "home_team_points": 89,
+      "visitor_team_points": 118,
+      "maximum_points_player": 28,
+      "lead_changes": 0
+    },
+    "game_rating_total": 4
+  },
+  {
+    "game": {
+      "date": "2025-03-20T00:00:00",
+      "game_id": "0022401010",
+      "home_team": {
+        "team_id": 1610612766,
+        "team_abbreviation": "CHA",
+        "team_city_name": "Charlotte",
+        "team_name": "Hornets",
+        "conference": "East",
+        "conference_position": 14
+      },
+      "visitor_team": {
+        "team_id": 1610612752,
+        "team_abbreviation": "NYK",
+        "team_city_name": "New York",
+        "team_name": "Knicks",
+        "conference": "East",
+        "conference_position": 3
+      },
+      "game_rating": {
+        "standings": 2,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 0,
+        "total": 2
+      },
+      "home_team_points": 115,
+      "visitor_team_points": 98,
+      "maximum_points_player": 25,
+      "lead_changes": 0
+    },
+    "game_rating_total": 2
+  },
+  {
+    "game": {
+      "date": "2025-03-20T00:00:00",
+      "game_id": "0022401013",
+      "home_team": {
+        "team_id": 1610612758,
+        "team_abbreviation": "SAC",
+        "team_city_name": "Sacramento",
+        "team_name": "Kings",
+        "conference": "West",
+        "conference_position": 9
+      },
+      "visitor_team": {
+        "team_id": 1610612741,
+        "team_abbreviation": "CHI",
+        "team_city_name": "Chicago",
+        "team_name": "Bulls",
+        "conference": "East",
+        "conference_position": 9
+      },
+      "game_rating": {
+        "standings": 0,
+        "score_difference": 0,
+        "maximum_points_player": 0,
+        "change_lead": 2,
+        "total": 2
+      },
+      "home_team_points": 116,
+      "visitor_team_points": 128,
+      "maximum_points_player": 35,
+      "lead_changes": 6
+    },
+    "game_rating_total": 2
+  }
+]
